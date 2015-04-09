@@ -1,0 +1,3 @@
+[submodule "PDPracticeDemo/CGKit"]
+	path = PDPracticeDemo/CGKit
+	url = git@github.com:root338/CGKit.git
