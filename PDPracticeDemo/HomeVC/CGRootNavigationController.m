@@ -24,6 +24,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (UIViewController *)lastViewController
+{
+    return self.viewControllers.lastObject;
+}
+
+- (BOOL)shouldAutorotate
+{
+    return [[self lastViewController] shouldAutorotate];
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return [[self lastViewController] supportedInterfaceOrientations];
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return [[self lastViewController] preferredInterfaceOrientationForPresentation];
+}
+
 /*
 #pragma mark - Navigation
 

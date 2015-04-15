@@ -23,6 +23,8 @@
 		18046CDB1AD6BD5F00AD758D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */; };
 		18046CDD1AD6BD6B00AD758D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDC1AD6BD6B00AD758D /* UIKit.framework */; };
 		18046CE11AD6BD7C00AD758D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */; };
+		18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */; };
+		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
 		D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12161AD76F25004F6D87 /* CGCropImage.m */; };
 		D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12181AD76F25004F6D87 /* CGCropView.m */; };
 		D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA121A1AD76F25004F6D87 /* CGZoomImageView.m */; };
@@ -79,6 +81,11 @@
 		18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18046CDC1AD6BD6B00AD758D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		18D4159F1ADE9D74003F4423 /* BoardingMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingMapViewController.h; sourceTree = "<group>"; };
+		18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingMapViewController.m; sourceTree = "<group>"; };
+		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
+		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
+		18D415A61ADEA1C8003F4423 /* UIViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDefine.h; sourceTree = "<group>"; };
 		D6EA12151AD76F25004F6D87 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
 		D6EA12161AD76F25004F6D87 /* CGCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropImage.m; sourceTree = "<group>"; };
 		D6EA12171AD76F25004F6D87 /* CGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropView.h; sourceTree = "<group>"; };
@@ -223,6 +230,8 @@
 				18046CC51AD6B81000AD758D /* CGTableViewController.m */,
 				D6EA124B1AD771E9004F6D87 /* HomeViewController.h */,
 				D6EA124C1AD771E9004F6D87 /* HomeViewController.m */,
+				18D415A21ADE9E12003F4423 /* BaseViewController.h */,
+				18D415A31ADE9E12003F4423 /* BaseViewController.m */,
 			);
 			name = HomeVC;
 			sourceTree = "<group>";
@@ -247,9 +256,28 @@
 			name = view;
 			sourceTree = "<group>";
 		};
+		18D4159E1ADE9D59003F4423 /* 寄宿图 */ = {
+			isa = PBXGroup;
+			children = (
+				18D4159F1ADE9D74003F4423 /* BoardingMapViewController.h */,
+				18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */,
+			);
+			name = "寄宿图";
+			path = "Demo/CoreAnimation/寄宿图";
+			sourceTree = "<group>";
+		};
+		18D415A51ADEA19C003F4423 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				18D415A61ADEA1C8003F4423 /* UIViewDefine.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		D6EA12121AD76F25004F6D87 /* CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				18D415A51ADEA19C003F4423 /* Header */,
 				D6EA12131AD76F25004F6D87 /* CGView */,
 				D6EA12221AD76F25004F6D87 /* PureLayout */,
 				D6EA122C1AD76F25004F6D87 /* README.md */,
@@ -355,6 +383,7 @@
 			children = (
 				D6EA12501AD77267004F6D87 /* CATableViewController.h */,
 				D6EA12511AD77267004F6D87 /* CATableViewController.m */,
+				18D4159E1ADE9D59003F4423 /* 寄宿图 */,
 			);
 			name = CoreAnimation;
 			sourceTree = "<group>";
@@ -479,8 +508,10 @@
 				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
 				D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */,
 				D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */,
+				18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */,
 				D6EA12391AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m in Sources */,
 				D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */,
+				18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */,
 				D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */,
 				D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */,
 				18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */,
