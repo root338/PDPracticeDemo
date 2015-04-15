@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  PDPracticeDemo
 //
-//  Created by apple on 15/4/9.
+//  Created by 345 on 15/4/10.
 //  Copyright (c) 2015年 apple. All rights reserved.
 //
 
-#import "CGRootViewController.h"
+#import "CGTableViewController.h"
 
-@interface HomeViewController : CGRootViewController
-
+@interface HomeViewController : CGTableViewController
 
 @end
-

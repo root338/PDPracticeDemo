@@ -18,7 +18,7 @@
 /**
  显示的列表
  */
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) UITableView *tableView;
 
 /**
  加载的数据

@@ -56,5 +56,6 @@
 - (void)setupCellContent:(HomeCellModel *)dataModel
 {
     self.textLabel.text = dataModel.title;
+    self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 }
 @end

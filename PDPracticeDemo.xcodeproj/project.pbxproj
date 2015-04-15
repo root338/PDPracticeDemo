@@ -13,7 +13,7 @@
 		18046CAE1AD6B55500AD758D /* PDPracticeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CAD1AD6B55500AD758D /* PDPracticeDemoTests.m */; };
 		18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CC11AD6B81000AD758D /* CGRootNavigationController.m */; };
 		18046CC71AD6B81000AD758D /* CGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CC31AD6B81000AD758D /* CGRootViewController.m */; };
-		18046CC81AD6B81000AD758D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CC51AD6B81000AD758D /* HomeViewController.m */; };
+		18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CC51AD6B81000AD758D /* CGTableViewController.m */; };
 		18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CCA1AD6B82000AD758D /* AppDelegate.m */; };
 		18046CCE1AD6B82000AD758D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18046CCB1AD6B82000AD758D /* Info.plist */; };
 		18046CCF1AD6B82000AD758D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CCC1AD6B82000AD758D /* main.m */; };
@@ -23,6 +23,23 @@
 		18046CDB1AD6BD5F00AD758D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */; };
 		18046CDD1AD6BD6B00AD758D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDC1AD6BD6B00AD758D /* UIKit.framework */; };
 		18046CE11AD6BD7C00AD758D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */; };
+		D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12161AD76F25004F6D87 /* CGCropImage.m */; };
+		D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12181AD76F25004F6D87 /* CGCropView.m */; };
+		D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA121A1AD76F25004F6D87 /* CGZoomImageView.m */; };
+		D6EA12391AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA121D1AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m */; };
+		D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA121F1AD76F25004F6D87 /* CGPlaceholderLabel.m */; };
+		D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12211AD76F25004F6D87 /* CGTitleLabel.m */; };
+		D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12241AD76F25004F6D87 /* ALView+PureLayout.m */; };
+		D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12261AD76F25004F6D87 /* NSArray+PureLayout.m */; };
+		D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12281AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m */; };
+		D6EA123F1AD76F25004F6D87 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6EA122C1AD76F25004F6D87 /* README.md */; };
+		D6EA12401AD76F25004F6D87 /* NSObject+AreaCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA122F1AD76F25004F6D87 /* NSObject+AreaCalculate.m */; };
+		D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12311AD76F25004F6D87 /* UIColor+HexColor.m */; };
+		D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12331AD76F25004F6D87 /* UIView+AddLayoutConstraint.m */; };
+		D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12351AD76F25004F6D87 /* UIView+Frame.m */; };
+		D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */; };
+		D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA124C1AD771E9004F6D87 /* HomeViewController.m */; };
+		D6EA12521AD77267004F6D87 /* CATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12511AD77267004F6D87 /* CATableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +64,8 @@
 		18046CC11AD6B81000AD758D /* CGRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGRootNavigationController.m; path = HomeVC/CGRootNavigationController.m; sourceTree = "<group>"; };
 		18046CC21AD6B81000AD758D /* CGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGRootViewController.h; path = HomeVC/CGRootViewController.h; sourceTree = "<group>"; };
 		18046CC31AD6B81000AD758D /* CGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGRootViewController.m; path = HomeVC/CGRootViewController.m; sourceTree = "<group>"; };
-		18046CC41AD6B81000AD758D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = HomeVC/HomeViewController.h; sourceTree = "<group>"; };
-		18046CC51AD6B81000AD758D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = HomeVC/HomeViewController.m; sourceTree = "<group>"; };
+		18046CC41AD6B81000AD758D /* CGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGTableViewController.h; path = HomeVC/CGTableViewController.h; sourceTree = "<group>"; };
+		18046CC51AD6B81000AD758D /* CGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGTableViewController.m; path = HomeVC/CGTableViewController.m; sourceTree = "<group>"; };
 		18046CC91AD6B82000AD758D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Supporting Files/AppDelegate.h"; sourceTree = "<group>"; };
 		18046CCA1AD6B82000AD758D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Supporting Files/AppDelegate.m"; sourceTree = "<group>"; };
 		18046CCB1AD6B82000AD758D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
@@ -62,6 +79,42 @@
 		18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18046CDC1AD6BD6B00AD758D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D6EA12151AD76F25004F6D87 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
+		D6EA12161AD76F25004F6D87 /* CGCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropImage.m; sourceTree = "<group>"; };
+		D6EA12171AD76F25004F6D87 /* CGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropView.h; sourceTree = "<group>"; };
+		D6EA12181AD76F25004F6D87 /* CGCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropView.m; sourceTree = "<group>"; };
+		D6EA12191AD76F25004F6D87 /* CGZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGZoomImageView.h; sourceTree = "<group>"; };
+		D6EA121A1AD76F25004F6D87 /* CGZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGZoomImageView.m; sourceTree = "<group>"; };
+		D6EA121C1AD76F25004F6D87 /* CGAttributedPlaceholderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAttributedPlaceholderLabel.h; sourceTree = "<group>"; };
+		D6EA121D1AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAttributedPlaceholderLabel.m; sourceTree = "<group>"; };
+		D6EA121E1AD76F25004F6D87 /* CGPlaceholderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPlaceholderLabel.h; sourceTree = "<group>"; };
+		D6EA121F1AD76F25004F6D87 /* CGPlaceholderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPlaceholderLabel.m; sourceTree = "<group>"; };
+		D6EA12201AD76F25004F6D87 /* CGTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleLabel.h; sourceTree = "<group>"; };
+		D6EA12211AD76F25004F6D87 /* CGTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleLabel.m; sourceTree = "<group>"; };
+		D6EA12231AD76F25004F6D87 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		D6EA12241AD76F25004F6D87 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		D6EA12251AD76F25004F6D87 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		D6EA12261AD76F25004F6D87 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		D6EA12271AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		D6EA12281AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		D6EA12291AD76F25004F6D87 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		D6EA122A1AD76F25004F6D87 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		D6EA122B1AD76F25004F6D87 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		D6EA122C1AD76F25004F6D87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6EA122E1AD76F25004F6D87 /* NSObject+AreaCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AreaCalculate.h"; sourceTree = "<group>"; };
+		D6EA122F1AD76F25004F6D87 /* NSObject+AreaCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AreaCalculate.m"; sourceTree = "<group>"; };
+		D6EA12301AD76F25004F6D87 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		D6EA12311AD76F25004F6D87 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		D6EA12321AD76F25004F6D87 /* UIView+AddLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddLayoutConstraint.h"; sourceTree = "<group>"; };
+		D6EA12331AD76F25004F6D87 /* UIView+AddLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddLayoutConstraint.m"; sourceTree = "<group>"; };
+		D6EA12341AD76F25004F6D87 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		D6EA12351AD76F25004F6D87 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		D6EA12481AD77020004F6D87 /* ChangeApplicationLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeApplicationLanguage.h; sourceTree = "<group>"; };
+		D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeApplicationLanguage.m; sourceTree = "<group>"; };
+		D6EA124B1AD771E9004F6D87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = HomeVC/HomeViewController.h; sourceTree = "<group>"; };
+		D6EA124C1AD771E9004F6D87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = HomeVC/HomeViewController.m; sourceTree = "<group>"; };
+		D6EA12501AD77267004F6D87 /* CATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATableViewController.h; path = Demo/CoreAnimation/CATableViewController.h; sourceTree = "<group>"; };
+		D6EA12511AD77267004F6D87 /* CATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATableViewController.m; path = Demo/CoreAnimation/CATableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +160,9 @@
 		18046C901AD6B55500AD758D /* PDPracticeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6EA124E1AD7722F004F6D87 /* Demo */,
+				D6EA12461AD77020004F6D87 /* Scene */,
+				D6EA12121AD76F25004F6D87 /* CGKit */,
 				18046CB81AD6B6F300AD758D /* HomeVC */,
 				18046C9B1AD6B55500AD758D /* Main.storyboard */,
 				18046C9E1AD6B55500AD758D /* Images.xcassets */,
@@ -163,8 +219,10 @@
 				18046CC11AD6B81000AD758D /* CGRootNavigationController.m */,
 				18046CC21AD6B81000AD758D /* CGRootViewController.h */,
 				18046CC31AD6B81000AD758D /* CGRootViewController.m */,
-				18046CC41AD6B81000AD758D /* HomeViewController.h */,
-				18046CC51AD6B81000AD758D /* HomeViewController.m */,
+				18046CC41AD6B81000AD758D /* CGTableViewController.h */,
+				18046CC51AD6B81000AD758D /* CGTableViewController.m */,
+				D6EA124B1AD771E9004F6D87 /* HomeViewController.h */,
+				D6EA124C1AD771E9004F6D87 /* HomeViewController.m */,
 			);
 			name = HomeVC;
 			sourceTree = "<group>";
@@ -187,6 +245,118 @@
 				18046CD51AD6B8F500AD758D /* HomeTableViewCell.m */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		D6EA12121AD76F25004F6D87 /* CGKit */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA12131AD76F25004F6D87 /* CGView */,
+				D6EA12221AD76F25004F6D87 /* PureLayout */,
+				D6EA122C1AD76F25004F6D87 /* README.md */,
+				D6EA122D1AD76F25004F6D87 /* UIKit */,
+			);
+			path = CGKit;
+			sourceTree = "<group>";
+		};
+		D6EA12131AD76F25004F6D87 /* CGView */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA12141AD76F25004F6D87 /* CGImageView */,
+				D6EA121B1AD76F25004F6D87 /* CGLabel */,
+			);
+			path = CGView;
+			sourceTree = "<group>";
+		};
+		D6EA12141AD76F25004F6D87 /* CGImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA12151AD76F25004F6D87 /* CGCropImage.h */,
+				D6EA12161AD76F25004F6D87 /* CGCropImage.m */,
+				D6EA12171AD76F25004F6D87 /* CGCropView.h */,
+				D6EA12181AD76F25004F6D87 /* CGCropView.m */,
+				D6EA12191AD76F25004F6D87 /* CGZoomImageView.h */,
+				D6EA121A1AD76F25004F6D87 /* CGZoomImageView.m */,
+			);
+			path = CGImageView;
+			sourceTree = "<group>";
+		};
+		D6EA121B1AD76F25004F6D87 /* CGLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA121C1AD76F25004F6D87 /* CGAttributedPlaceholderLabel.h */,
+				D6EA121D1AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m */,
+				D6EA121E1AD76F25004F6D87 /* CGPlaceholderLabel.h */,
+				D6EA121F1AD76F25004F6D87 /* CGPlaceholderLabel.m */,
+				D6EA12201AD76F25004F6D87 /* CGTitleLabel.h */,
+				D6EA12211AD76F25004F6D87 /* CGTitleLabel.m */,
+			);
+			path = CGLabel;
+			sourceTree = "<group>";
+		};
+		D6EA12221AD76F25004F6D87 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA12231AD76F25004F6D87 /* ALView+PureLayout.h */,
+				D6EA12241AD76F25004F6D87 /* ALView+PureLayout.m */,
+				D6EA12251AD76F25004F6D87 /* NSArray+PureLayout.h */,
+				D6EA12261AD76F25004F6D87 /* NSArray+PureLayout.m */,
+				D6EA12271AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.h */,
+				D6EA12281AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m */,
+				D6EA12291AD76F25004F6D87 /* PureLayout+Internal.h */,
+				D6EA122A1AD76F25004F6D87 /* PureLayout.h */,
+				D6EA122B1AD76F25004F6D87 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		D6EA122D1AD76F25004F6D87 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA122E1AD76F25004F6D87 /* NSObject+AreaCalculate.h */,
+				D6EA122F1AD76F25004F6D87 /* NSObject+AreaCalculate.m */,
+				D6EA12301AD76F25004F6D87 /* UIColor+HexColor.h */,
+				D6EA12311AD76F25004F6D87 /* UIColor+HexColor.m */,
+				D6EA12321AD76F25004F6D87 /* UIView+AddLayoutConstraint.h */,
+				D6EA12331AD76F25004F6D87 /* UIView+AddLayoutConstraint.m */,
+				D6EA12341AD76F25004F6D87 /* UIView+Frame.h */,
+				D6EA12351AD76F25004F6D87 /* UIView+Frame.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D6EA12461AD77020004F6D87 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA12471AD77020004F6D87 /* changeLanguage */,
+			);
+			name = Scene;
+			path = HomeVC/Scene;
+			sourceTree = "<group>";
+		};
+		D6EA12471AD77020004F6D87 /* changeLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA12481AD77020004F6D87 /* ChangeApplicationLanguage.h */,
+				D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */,
+			);
+			path = changeLanguage;
+			sourceTree = "<group>";
+		};
+		D6EA124E1AD7722F004F6D87 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA124F1AD77234004F6D87 /* CoreAnimation */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		D6EA124F1AD77234004F6D87 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA12501AD77267004F6D87 /* CATableViewController.h */,
+				D6EA12511AD77267004F6D87 /* CATableViewController.m */,
+			);
+			name = CoreAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,12 +462,29 @@
 			files = (
 				18046CCF1AD6B82000AD758D /* main.m in Sources */,
 				18046CD91AD6B91A00AD758D /* CGTableViewCell.m in Sources */,
+				D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */,
+				D6EA12521AD77267004F6D87 /* CATableViewController.m in Sources */,
+				D6EA12401AD76F25004F6D87 /* NSObject+AreaCalculate.m in Sources */,
 				18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */,
+				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
+				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
+				D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */,
 				18046CC71AD6B81000AD758D /* CGRootViewController.m in Sources */,
 				18046CD61AD6B8F500AD758D /* HomeTableViewCell.m in Sources */,
+				D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */,
+				D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */,
+				D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */,
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
-				18046CC81AD6B81000AD758D /* HomeViewController.m in Sources */,
+				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
+				D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */,
+				D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */,
+				D6EA12391AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m in Sources */,
+				D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */,
+				D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */,
+				D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */,
+				18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */,
+				D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

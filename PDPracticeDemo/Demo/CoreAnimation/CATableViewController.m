@@ -1,29 +1,26 @@
 //
-//  HomeViewController.m
+//  CATableViewController.m
 //  PDPracticeDemo
 //
 //  Created by 345 on 15/4/10.
 //  Copyright (c) 2015年 apple. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "CATableViewController.h"
 
-@interface HomeViewController ()
+@interface CATableViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation CATableViewController
 
 - (void)viewDidLoad {
     
-    self.title = @"首 页";
     self.dataSource = [NSMutableArray arrayWithObjects:
-                       [HomeCellModel createTitle:@"CoreAnimationDemo" string:@"CATableViewController" loadType:NO],
                        
                        nil];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,6 +8,7 @@
 
 #import "CGRootViewController.h"
 #import "CGTableViewDataSource.h"
+#import "PureLayout.h"
 
 @interface CGRootViewController ()
 {
@@ -16,6 +17,19 @@
 @end
 
 @implementation CGRootViewController
+
+- (UITableView *)tableView
+{
+    if (_tableView) {
+        return _tableView;
+    }
+    
+    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [self.view addSubview:_tableView];
+    _tableView.translatesAutoresizingMaskIntoConstraints = NO;
+    [_tableView autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
+    return _tableView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,7 +48,7 @@
         [cell setupCellContent:model];
     };
     dataSourceDelegate = [[CGTableViewDataSource alloc] initWithDataSource:self.dataSource identifierClass:_idenifierClass setupCellBlock:setCellBlock];
-    _tableView.dataSource = dataSourceDelegate;
+    self.tableView.dataSource = dataSourceDelegate;
 }
 
 - (void)didReceiveMemoryWarning {
