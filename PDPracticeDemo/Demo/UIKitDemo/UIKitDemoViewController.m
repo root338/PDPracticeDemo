@@ -1,26 +1,24 @@
 //
-//  HomeViewController.m
+//  UIKitDemoViewController.m
 //  PDPracticeDemo
 //
-//  Created by 345 on 15/4/10.
+//  Created by apple on 15/4/23.
 //  Copyright (c) 2015年 apple. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "UIKitDemoViewController.h"
 
-@interface HomeViewController ()
+@interface UIKitDemoViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation UIKitDemoViewController
 
 - (void)viewDidLoad {
     
-    self.title = @"首 页";
-    self.dataSource = [NSMutableArray arrayWithObjects:
-                       [HomeCellModel createTitle:@"CoreAnimationDemo" string:@"CATableViewController" loadType:NO],
-                       [HomeCellModel createTitle:@"UIKit Demo" string:@"UIKitDemoViewController" loadType:NO],
-                       nil];
+    self.dataSource = [NSMutableArray arrayWithArray:@[
+                                                       [HomeCellModel createTitle:@"使用auto layout计算cell" string:@"AutoLayoutTableViewController" loadType:NO]
+                                                       ]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
