@@ -25,10 +25,23 @@
 		18046CE11AD6BD7C00AD758D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */; };
 		1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */; };
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
-		1867B4341AE92462006C4160 /* UILabel+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B4331AE92462006C4160 /* UILabel+CreateAutoLayout.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
 		18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
+		D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86611AEDD7E00052D250 /* LabelViewController.m */; };
+		D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86641AEDD83A0052D250 /* UITextField+CreateAutoLayout.m */; };
+		D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86671AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m */; };
+		D64B866A1AEDE1E70052D250 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B86691AEDE1E70052D250 /* Reveal.framework */; };
+		D64B866E1AEDE7F60052D250 /* CGBaseAutoLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B866D1AEDE7F60052D250 /* CGBaseAutoLayoutView.m */; };
+		D64B86711AEDF5ED0052D250 /* CGTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86701AEDF5ED0052D250 /* CGTitleBaseView.m */; };
+		D64B86741AEDF67F0052D250 /* CGTitleTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86731AEDF67F0052D250 /* CGTitleTextField.m */; };
+		D64B86781AEDF81D0052D250 /* CGBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86771AEDF81D0052D250 /* CGBaseTextField.m */; };
+		D64B867B1AEDFA4E0052D250 /* CGBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B867A1AEDFA4E0052D250 /* CGBaseLabel.m */; };
+		D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B867D1AEDFA740052D250 /* CGMultiLineLabel.m */; };
+		D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86851AEE1E950052D250 /* SubCustomViewController.m */; };
+		D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907F81AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m */; };
+		D67907FC1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */; };
+		D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */; };
 		D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12161AD76F25004F6D87 /* CGCropImage.m */; };
 		D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12181AD76F25004F6D87 /* CGCropView.m */; };
 		D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA121A1AD76F25004F6D87 /* CGZoomImageView.m */; };
@@ -89,15 +102,40 @@
 		1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitDemoViewController.m; sourceTree = "<group>"; };
 		1867B42D1AE92248006C4160 /* AutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewController.h; sourceTree = "<group>"; };
 		1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewController.m; sourceTree = "<group>"; };
-		1867B4311AE92433006C4160 /* CreateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateView.h; sourceTree = "<group>"; };
-		1867B4321AE92462006C4160 /* UILabel+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CreateAutoLayout.h"; sourceTree = "<group>"; };
-		1867B4331AE92462006C4160 /* UILabel+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CreateAutoLayout.m"; sourceTree = "<group>"; };
 		1867B4361AE92E23006C4160 /* car_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_001.jpg; sourceTree = "<group>"; };
 		18D4159F1ADE9D74003F4423 /* BoardingMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingMapViewController.h; sourceTree = "<group>"; };
 		18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingMapViewController.m; sourceTree = "<group>"; };
 		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
 		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
 		18D415A61ADEA1C8003F4423 /* UIViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDefine.h; sourceTree = "<group>"; };
+		D64B86601AEDD7E00052D250 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		D64B86611AEDD7E00052D250 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		D64B86631AEDD83A0052D250 /* UITextField+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		D64B86641AEDD83A0052D250 /* UITextField+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		D64B86661AEDD94D0052D250 /* UIView+CreateSubAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CreateSubAutoLayout.h"; sourceTree = "<group>"; };
+		D64B86671AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CreateSubAutoLayout.m"; sourceTree = "<group>"; };
+		D64B86691AEDE1E70052D250 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		D64B866C1AEDE7F60052D250 /* CGBaseAutoLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseAutoLayoutView.h; sourceTree = "<group>"; };
+		D64B866D1AEDE7F60052D250 /* CGBaseAutoLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseAutoLayoutView.m; sourceTree = "<group>"; };
+		D64B866F1AEDF5ED0052D250 /* CGTitleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleBaseView.h; sourceTree = "<group>"; };
+		D64B86701AEDF5ED0052D250 /* CGTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleBaseView.m; sourceTree = "<group>"; };
+		D64B86721AEDF67F0052D250 /* CGTitleTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleTextField.h; sourceTree = "<group>"; };
+		D64B86731AEDF67F0052D250 /* CGTitleTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleTextField.m; sourceTree = "<group>"; };
+		D64B86761AEDF81D0052D250 /* CGBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseTextField.h; sourceTree = "<group>"; };
+		D64B86771AEDF81D0052D250 /* CGBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseTextField.m; sourceTree = "<group>"; };
+		D64B86791AEDFA4E0052D250 /* CGBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseLabel.h; sourceTree = "<group>"; };
+		D64B867A1AEDFA4E0052D250 /* CGBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseLabel.m; sourceTree = "<group>"; };
+		D64B867C1AEDFA740052D250 /* CGMultiLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMultiLineLabel.h; sourceTree = "<group>"; };
+		D64B867D1AEDFA740052D250 /* CGMultiLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGMultiLineLabel.m; sourceTree = "<group>"; };
+		D64B86841AEE1E950052D250 /* SubCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCustomViewController.h; sourceTree = "<group>"; };
+		D64B86851AEE1E950052D250 /* SubCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCustomViewController.m; sourceTree = "<group>"; };
+		D67907F61AEDCFD1009CAC9B /* CreateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateView.h; sourceTree = "<group>"; };
+		D67907F71AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		D67907F81AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		D67907FA1AEDD078009CAC9B /* UIButton+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		D67907FD1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CreateAutoLayout.m"; sourceTree = "<group>"; };
 		D6EA12151AD76F25004F6D87 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
 		D6EA12161AD76F25004F6D87 /* CGCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropImage.m; sourceTree = "<group>"; };
 		D6EA12171AD76F25004F6D87 /* CGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropView.h; sourceTree = "<group>"; };
@@ -144,6 +182,7 @@
 				18046CE11AD6BD7C00AD758D /* CoreFoundation.framework in Frameworks */,
 				18046CDD1AD6BD6B00AD758D /* UIKit.framework in Frameworks */,
 				18046CDB1AD6BD5F00AD758D /* QuartzCore.framework in Frameworks */,
+				D64B866A1AEDE1E70052D250 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +262,7 @@
 		18046CB71AD6B5D300AD758D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D64B86691AEDE1E70052D250 /* Reveal.framework */,
 				18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */,
 				18046CDC1AD6BD6B00AD758D /* UIKit.framework */,
 				18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */,
@@ -274,6 +314,8 @@
 			children = (
 				1867B4291AE921AD006C4160 /* UIKitDemoViewController.h */,
 				1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */,
+				D64B86831AEE1E950052D250 /* UIView */,
+				D64B865F1AEDD7CB0052D250 /* Label */,
 				1867B42C1AE9222C006C4160 /* TableView */,
 			);
 			name = UIKitDemo;
@@ -292,9 +334,17 @@
 		1867B4301AE92421006C4160 /* CreateView */ = {
 			isa = PBXGroup;
 			children = (
-				1867B4311AE92433006C4160 /* CreateView.h */,
-				1867B4321AE92462006C4160 /* UILabel+CreateAutoLayout.h */,
-				1867B4331AE92462006C4160 /* UILabel+CreateAutoLayout.m */,
+				D67907F61AEDCFD1009CAC9B /* CreateView.h */,
+				D67907F71AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.h */,
+				D67907F81AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m */,
+				D67907FA1AEDD078009CAC9B /* UIButton+CreateAutoLayout.h */,
+				D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */,
+				D67907FD1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.h */,
+				D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */,
+				D64B86631AEDD83A0052D250 /* UITextField+CreateAutoLayout.h */,
+				D64B86641AEDD83A0052D250 /* UITextField+CreateAutoLayout.m */,
+				D64B86661AEDD94D0052D250 /* UIView+CreateSubAutoLayout.h */,
+				D64B86671AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m */,
 			);
 			path = CreateView;
 			sourceTree = "<group>";
@@ -326,6 +376,46 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		D64B865F1AEDD7CB0052D250 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				D64B86601AEDD7E00052D250 /* LabelViewController.h */,
+				D64B86611AEDD7E00052D250 /* LabelViewController.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		D64B866B1AEDE7E60052D250 /* CGView */ = {
+			isa = PBXGroup;
+			children = (
+				D64B866C1AEDE7F60052D250 /* CGBaseAutoLayoutView.h */,
+				D64B866D1AEDE7F60052D250 /* CGBaseAutoLayoutView.m */,
+				D64B866F1AEDF5ED0052D250 /* CGTitleBaseView.h */,
+				D64B86701AEDF5ED0052D250 /* CGTitleBaseView.m */,
+				D64B86721AEDF67F0052D250 /* CGTitleTextField.h */,
+				D64B86731AEDF67F0052D250 /* CGTitleTextField.m */,
+			);
+			path = CGView;
+			sourceTree = "<group>";
+		};
+		D64B86751AEDF7EE0052D250 /* CGTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D64B86761AEDF81D0052D250 /* CGBaseTextField.h */,
+				D64B86771AEDF81D0052D250 /* CGBaseTextField.m */,
+			);
+			path = CGTextField;
+			sourceTree = "<group>";
+		};
+		D64B86831AEE1E950052D250 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D64B86841AEE1E950052D250 /* SubCustomViewController.h */,
+				D64B86851AEE1E950052D250 /* SubCustomViewController.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		D6EA12121AD76F25004F6D87 /* CGKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,6 +432,8 @@
 		D6EA12131AD76F25004F6D87 /* CGView */ = {
 			isa = PBXGroup;
 			children = (
+				D64B86751AEDF7EE0052D250 /* CGTextField */,
+				D64B866B1AEDE7E60052D250 /* CGView */,
 				D6EA12141AD76F25004F6D87 /* CGImageView */,
 				D6EA121B1AD76F25004F6D87 /* CGLabel */,
 			);
@@ -370,6 +462,10 @@
 				D6EA121F1AD76F25004F6D87 /* CGPlaceholderLabel.m */,
 				D6EA12201AD76F25004F6D87 /* CGTitleLabel.h */,
 				D6EA12211AD76F25004F6D87 /* CGTitleLabel.m */,
+				D64B86791AEDFA4E0052D250 /* CGBaseLabel.h */,
+				D64B867A1AEDFA4E0052D250 /* CGBaseLabel.m */,
+				D64B867C1AEDFA740052D250 /* CGMultiLineLabel.h */,
+				D64B867D1AEDFA740052D250 /* CGMultiLineLabel.m */,
 			);
 			path = CGLabel;
 			sourceTree = "<group>";
@@ -546,24 +642,35 @@
 			files = (
 				18046CCF1AD6B82000AD758D /* main.m in Sources */,
 				18046CD91AD6B91A00AD758D /* CGTableViewCell.m in Sources */,
+				D67907FC1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m in Sources */,
 				1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */,
 				D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */,
 				D6EA12521AD77267004F6D87 /* CATableViewController.m in Sources */,
 				1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */,
+				D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */,
+				D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */,
 				D6EA12401AD76F25004F6D87 /* NSObject+AreaCalculate.m in Sources */,
+				D64B86711AEDF5ED0052D250 /* CGTitleBaseView.m in Sources */,
+				D64B866E1AEDE7F60052D250 /* CGBaseAutoLayoutView.m in Sources */,
 				18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */,
-				1867B4341AE92462006C4160 /* UILabel+CreateAutoLayout.m in Sources */,
+				D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */,
+				D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */,
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
 				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
+				D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */,
+				D64B86741AEDF67F0052D250 /* CGTitleTextField.m in Sources */,
 				D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */,
 				18046CC71AD6B81000AD758D /* CGRootViewController.m in Sources */,
+				D64B867B1AEDFA4E0052D250 /* CGBaseLabel.m in Sources */,
+				D64B86781AEDF81D0052D250 /* CGBaseTextField.m in Sources */,
 				18046CD61AD6B8F500AD758D /* HomeTableViewCell.m in Sources */,
 				D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */,
 				D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */,
 				D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */,
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
 				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
+				D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */,
 				D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */,
 				D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */,
 				18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */,
@@ -571,6 +678,7 @@
 				D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */,
 				18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */,
 				D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */,
+				D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */,
 				D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */,
 				18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */,
 				D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */,
@@ -695,8 +803,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PDPracticeDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -705,8 +818,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PDPracticeDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
