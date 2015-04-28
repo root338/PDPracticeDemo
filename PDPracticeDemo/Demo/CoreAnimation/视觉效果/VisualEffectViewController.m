@@ -1,27 +1,29 @@
 //
-//  CATableViewController.m
+//  VisualEffectViewController.m
 //  PDPracticeDemo
 //
-//  Created by 345 on 15/4/10.
+//  Created by apple on 15/4/27.
 //  Copyright (c) 2015年 apple. All rights reserved.
 //
 
-#import "CATableViewController.h"
+#import "VisualEffectViewController.h"
 
-@interface CATableViewController ()
+@interface VisualEffectViewController ()
 
 @end
 
-@implementation CATableViewController
+@implementation VisualEffectViewController
 
 - (void)viewDidLoad {
-    
-    self.dataSource = [NSMutableArray arrayWithObjects:
-                       [HomeCellModel createVCTitle:@"寄宿图" className:@"BoardingMapViewController"],
-                       [HomeCellModel createVCTitle:@"视觉效果" className:@"VisualEffectViewController"],
-                       nil];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    CALayer *layer = [CALayer layer];
+    
+    ///当层内有多个层透明时，需设置组透明，这时叠加的层的透明度才一样
+    layer.shouldRasterize = YES;
+    ///需要设置 rasterizationScale 匹配屏幕
+    layer.rasterizationScale = [UIScreen mainScreen].scale;
 }
 
 - (void)didReceiveMemoryWarning {

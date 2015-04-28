@@ -23,11 +23,14 @@
 		18046CDB1AD6BD5F00AD758D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */; };
 		18046CDD1AD6BD6B00AD758D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDC1AD6BD6B00AD758D /* UIKit.framework */; };
 		18046CE11AD6BD7C00AD758D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */; };
+		1812414E1AEFEACB005B51B1 /* ProprietaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812414D1AEFEACB005B51B1 /* ProprietaryViewController.m */; };
 		1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */; };
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
 		18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
+		18F6AFE81AEE7F6900059786 /* VisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6AFE71AEE7F6900059786 /* VisualEffectViewController.m */; };
+		18F6AFEC1AEE810200059786 /* CALayer+CreateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6AFEB1AEE810200059786 /* CALayer+CreateLayer.m */; };
 		D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86611AEDD7E00052D250 /* LabelViewController.m */; };
 		D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86641AEDD83A0052D250 /* UITextField+CreateAutoLayout.m */; };
 		D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86671AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m */; };
@@ -98,6 +101,9 @@
 		18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18046CDC1AD6BD6B00AD758D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1812414C1AEFEACB005B51B1 /* ProprietaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProprietaryViewController.h; sourceTree = "<group>"; };
+		1812414D1AEFEACB005B51B1 /* ProprietaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProprietaryViewController.m; sourceTree = "<group>"; };
+		181241501AEFEDF3005B51B1 /* CGDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDefine.h; sourceTree = "<group>"; };
 		1867B4291AE921AD006C4160 /* UIKitDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitDemoViewController.h; sourceTree = "<group>"; };
 		1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitDemoViewController.m; sourceTree = "<group>"; };
 		1867B42D1AE92248006C4160 /* AutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewController.h; sourceTree = "<group>"; };
@@ -108,6 +114,10 @@
 		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
 		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
 		18D415A61ADEA1C8003F4423 /* UIViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDefine.h; sourceTree = "<group>"; };
+		18F6AFE61AEE7F6900059786 /* VisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectViewController.h; sourceTree = "<group>"; };
+		18F6AFE71AEE7F6900059786 /* VisualEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualEffectViewController.m; sourceTree = "<group>"; };
+		18F6AFEA1AEE810200059786 /* CALayer+CreateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+CreateLayer.h"; sourceTree = "<group>"; };
+		18F6AFEB1AEE810200059786 /* CALayer+CreateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+CreateLayer.m"; sourceTree = "<group>"; };
 		D64B86601AEDD7E00052D250 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
 		D64B86611AEDD7E00052D250 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
 		D64B86631AEDD83A0052D250 /* UITextField+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CreateAutoLayout.h"; sourceTree = "<group>"; };
@@ -309,6 +319,24 @@
 			name = view;
 			sourceTree = "<group>";
 		};
+		1812414B1AEFEA99005B51B1 /* 专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				1812414C1AEFEACB005B51B1 /* ProprietaryViewController.h */,
+				1812414D1AEFEACB005B51B1 /* ProprietaryViewController.m */,
+			);
+			name = "专用图层";
+			path = "Demo/CoreAnimation/专用图层";
+			sourceTree = "<group>";
+		};
+		1812414F1AEFEDE5005B51B1 /* MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				181241501AEFEDF3005B51B1 /* CGDefine.h */,
+			);
+			path = MacroDefinition;
+			sourceTree = "<group>";
+		};
 		1867B4281AE92135006C4160 /* UIKitDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +404,25 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		18F6AFE51AEE7F1800059786 /* 视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				18F6AFE61AEE7F6900059786 /* VisualEffectViewController.h */,
+				18F6AFE71AEE7F6900059786 /* VisualEffectViewController.m */,
+			);
+			name = "视觉效果";
+			path = "Demo/CoreAnimation/视觉效果";
+			sourceTree = "<group>";
+		};
+		18F6AFE91AEE80ED00059786 /* CreateLayer */ = {
+			isa = PBXGroup;
+			children = (
+				18F6AFEA1AEE810200059786 /* CALayer+CreateLayer.h */,
+				18F6AFEB1AEE810200059786 /* CALayer+CreateLayer.m */,
+			);
+			path = CreateLayer;
+			sourceTree = "<group>";
+		};
 		D64B865F1AEDD7CB0052D250 /* Label */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +466,8 @@
 		D6EA12121AD76F25004F6D87 /* CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				1812414F1AEFEDE5005B51B1 /* MacroDefinition */,
+				18F6AFE91AEE80ED00059786 /* CreateLayer */,
 				1867B4301AE92421006C4160 /* CreateView */,
 				18D415A51ADEA19C003F4423 /* Header */,
 				D6EA12131AD76F25004F6D87 /* CGView */,
@@ -533,6 +582,8 @@
 			children = (
 				D6EA12501AD77267004F6D87 /* CATableViewController.h */,
 				D6EA12511AD77267004F6D87 /* CATableViewController.m */,
+				1812414B1AEFEA99005B51B1 /* 专用图层 */,
+				18F6AFE51AEE7F1800059786 /* 视觉效果 */,
 				18D4159E1ADE9D59003F4423 /* 寄宿图 */,
 			);
 			name = CoreAnimation;
@@ -665,6 +716,7 @@
 				D64B867B1AEDFA4E0052D250 /* CGBaseLabel.m in Sources */,
 				D64B86781AEDF81D0052D250 /* CGBaseTextField.m in Sources */,
 				18046CD61AD6B8F500AD758D /* HomeTableViewCell.m in Sources */,
+				18F6AFE81AEE7F6900059786 /* VisualEffectViewController.m in Sources */,
 				D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */,
 				D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */,
 				D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */,
@@ -673,9 +725,11 @@
 				D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */,
 				D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */,
 				D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */,
+				1812414E1AEFEACB005B51B1 /* ProprietaryViewController.m in Sources */,
 				18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */,
 				D6EA12391AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m in Sources */,
 				D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */,
+				18F6AFEC1AEE810200059786 /* CALayer+CreateLayer.m in Sources */,
 				18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */,
 				D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */,
 				D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */,

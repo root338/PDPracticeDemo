@@ -1,27 +1,24 @@
 //
-//  CATableViewController.m
+//  ProprietaryViewController.m
 //  PDPracticeDemo
 //
-//  Created by 345 on 15/4/10.
+//  Created by apple on 15/4/29.
 //  Copyright (c) 2015年 apple. All rights reserved.
 //
 
-#import "CATableViewController.h"
+#import "ProprietaryViewController.h"
 
-@interface CATableViewController ()
+@interface ProprietaryViewController ()
 
 @end
 
-@implementation CATableViewController
+@implementation ProprietaryViewController
 
 - (void)viewDidLoad {
-    
-    self.dataSource = [NSMutableArray arrayWithObjects:
-                       [HomeCellModel createVCTitle:@"寄宿图" className:@"BoardingMapViewController"],
-                       [HomeCellModel createVCTitle:@"视觉效果" className:@"VisualEffectViewController"],
-                       nil];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    CAShapeLayer *shapelayer = [CAShapeLayer layer];
+    CATextLayer *textLayer = [CATextLayer layer];
 }
 
 - (void)didReceiveMemoryWarning {

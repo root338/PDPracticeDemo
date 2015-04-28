@@ -7,6 +7,7 @@
 //
 
 #import "UIKitDemoViewController.h"
+#import "UIView+Frame.h"
 
 @interface UIKitDemoViewController ()
 
@@ -23,7 +24,7 @@
                                                        ]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    [self.view x];
 }
 
 - (void)didReceiveMemoryWarning {

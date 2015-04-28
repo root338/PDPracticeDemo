@@ -24,6 +24,8 @@
 
 + (HomeCellModel *)createTitle:(NSString *)title class:(Class)targetClass loadType:(BOOL)isType;
 + (HomeCellModel *)createTitle:(NSString *)title string:(NSString *)targetClassString loadType:(BOOL)isType;
+
++ (HomeCellModel *)createVCTitle:(NSString *)title className:(NSString *)className;
 @end
 
 @interface HomeTableViewCell : CGTableViewCell
