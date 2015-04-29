@@ -1,32 +1,29 @@
 //
-//  HomeViewController.m
+//  VisualEffectViewController.m
 //  PDPracticeDemo
 //
-//  Created by 345 on 15/4/10.
+//  Created by apple on 15/4/27.
 //  Copyright (c) 2015年 apple. All rights reserved.
 //
 
-#import "HomeViewController.h"
-#import "TestObject.h"
+#import "VisualEffectViewController.h"
 
-@interface HomeViewController ()
+@interface VisualEffectViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation VisualEffectViewController
 
 - (void)viewDidLoad {
-    
-    self.title = @"首 页";
-    self.dataSource = [NSMutableArray arrayWithObjects:
-                       [HomeCellModel createTitle:@"CoreAnimationDemo" string:@"CATableViewController" loadType:NO],
-                       [HomeCellModel createTitle:@"UIKit Demo" string:@"UIKitDemoViewController" loadType:NO],
-                       [HomeCellModel createVCTitle:@"Foundion的一些功能使用" className:@"FoundionDemoListViewController"],
-                       nil];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [TestObject run];
+    CALayer *layer = [CALayer layer];
+    
+    ///当层内有多个层透明时，需设置组透明，这时叠加的层的透明度才一样
+    layer.shouldRasterize = YES;
+    ///需要设置 rasterizationScale 匹配屏幕
+    layer.rasterizationScale = [UIScreen mainScreen].scale;
 }
 
 - (void)didReceiveMemoryWarning {

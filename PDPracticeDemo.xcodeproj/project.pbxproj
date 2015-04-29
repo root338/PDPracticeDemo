@@ -26,8 +26,11 @@
 		1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */; };
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
-		18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
+		D61D918A1AF0B01C00A3AACF /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */; };
+		D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91841AF0B01C00A3AACF /* VisualEffectViewController.m */; };
+		D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91871AF0B01C00A3AACF /* ProprietaryViewController.m */; };
+		D61D918D1AF0B01C00A3AACF /* CATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91891AF0B01C00A3AACF /* CATableViewController.m */; };
 		D63A937A1AEF2A9B0094B68E /* FoundionDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */; };
 		D63A93811AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93801AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m */; };
 		D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A938C1AEF3E050094B68E /* EXTScope.m */; };
@@ -45,6 +48,7 @@
 		D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907F81AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m */; };
 		D67907FC1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */; };
 		D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */; };
+		D6BDBE3A1AF0B5BE000307CA /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BDBE391AF0B5BE000307CA /* TestObject.m */; };
 		D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12161AD76F25004F6D87 /* CGCropImage.m */; };
 		D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12181AD76F25004F6D87 /* CGCropView.m */; };
 		D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA121A1AD76F25004F6D87 /* CGZoomImageView.m */; };
@@ -61,7 +65,6 @@
 		D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12351AD76F25004F6D87 /* UIView+Frame.m */; };
 		D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */; };
 		D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA124C1AD771E9004F6D87 /* HomeViewController.m */; };
-		D6EA12521AD77267004F6D87 /* CATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12511AD77267004F6D87 /* CATableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,11 +109,18 @@
 		1867B42D1AE92248006C4160 /* AutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewController.h; sourceTree = "<group>"; };
 		1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewController.m; sourceTree = "<group>"; };
 		1867B4361AE92E23006C4160 /* car_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_001.jpg; sourceTree = "<group>"; };
-		18D4159F1ADE9D74003F4423 /* BoardingMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingMapViewController.h; sourceTree = "<group>"; };
-		18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingMapViewController.m; sourceTree = "<group>"; };
 		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
 		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
 		18D415A61ADEA1C8003F4423 /* UIViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDefine.h; sourceTree = "<group>"; };
+		D61D91801AF0B01C00A3AACF /* BoardingMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingMapViewController.h; sourceTree = "<group>"; };
+		D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingMapViewController.m; sourceTree = "<group>"; };
+		D61D91831AF0B01C00A3AACF /* VisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectViewController.h; sourceTree = "<group>"; };
+		D61D91841AF0B01C00A3AACF /* VisualEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualEffectViewController.m; sourceTree = "<group>"; };
+		D61D91861AF0B01C00A3AACF /* ProprietaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProprietaryViewController.h; sourceTree = "<group>"; };
+		D61D91871AF0B01C00A3AACF /* ProprietaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProprietaryViewController.m; sourceTree = "<group>"; };
+		D61D91881AF0B01C00A3AACF /* CATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATableViewController.h; sourceTree = "<group>"; };
+		D61D91891AF0B01C00A3AACF /* CATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATableViewController.m; sourceTree = "<group>"; };
+		D61D918F1AF0B03500A3AACF /* CGDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefine.h; sourceTree = "<group>"; };
 		D63A93781AEF2A9B0094B68E /* FoundionDemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundionDemoListViewController.h; sourceTree = "<group>"; };
 		D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundionDemoListViewController.m; sourceTree = "<group>"; };
 		D63A937F1AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Key-Value-ObservingUseViewController.h"; sourceTree = "<group>"; };
@@ -147,6 +157,8 @@
 		D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CreateAutoLayout.m"; sourceTree = "<group>"; };
 		D67907FD1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CreateAutoLayout.h"; sourceTree = "<group>"; };
 		D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		D6BDBE381AF0B5BE000307CA /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		D6BDBE391AF0B5BE000307CA /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		D6EA12151AD76F25004F6D87 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
 		D6EA12161AD76F25004F6D87 /* CGCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCropImage.m; sourceTree = "<group>"; };
 		D6EA12171AD76F25004F6D87 /* CGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropView.h; sourceTree = "<group>"; };
@@ -181,8 +193,6 @@
 		D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeApplicationLanguage.m; sourceTree = "<group>"; };
 		D6EA124B1AD771E9004F6D87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = HomeVC/HomeViewController.h; sourceTree = "<group>"; };
 		D6EA124C1AD771E9004F6D87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = HomeVC/HomeViewController.m; sourceTree = "<group>"; };
-		D6EA12501AD77267004F6D87 /* CATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATableViewController.h; path = Demo/CoreAnimation/CATableViewController.h; sourceTree = "<group>"; };
-		D6EA12511AD77267004F6D87 /* CATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATableViewController.m; path = Demo/CoreAnimation/CATableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,16 +379,6 @@
 			path = "Supporting Files/images";
 			sourceTree = "<group>";
 		};
-		18D4159E1ADE9D59003F4423 /* 寄宿图 */ = {
-			isa = PBXGroup;
-			children = (
-				18D4159F1ADE9D74003F4423 /* BoardingMapViewController.h */,
-				18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */,
-			);
-			name = "寄宿图";
-			path = "Demo/CoreAnimation/寄宿图";
-			sourceTree = "<group>";
-		};
 		18D415A51ADEA19C003F4423 /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -387,11 +387,64 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		D61D917F1AF0B01C00A3AACF /* 寄宿图 */ = {
+			isa = PBXGroup;
+			children = (
+				D61D91801AF0B01C00A3AACF /* BoardingMapViewController.h */,
+				D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */,
+			);
+			path = "寄宿图";
+			sourceTree = "<group>";
+		};
+		D61D91821AF0B01C00A3AACF /* 视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				D61D91831AF0B01C00A3AACF /* VisualEffectViewController.h */,
+				D61D91841AF0B01C00A3AACF /* VisualEffectViewController.m */,
+			);
+			path = "视觉效果";
+			sourceTree = "<group>";
+		};
+		D61D91851AF0B01C00A3AACF /* 专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				D61D91861AF0B01C00A3AACF /* ProprietaryViewController.h */,
+				D61D91871AF0B01C00A3AACF /* ProprietaryViewController.m */,
+			);
+			path = "专用图层";
+			sourceTree = "<group>";
+		};
+		D61D918E1AF0B03500A3AACF /* MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				D61D918F1AF0B03500A3AACF /* CGDefine.h */,
+			);
+			path = MacroDefinition;
+			sourceTree = "<group>";
+		};
+		D61D91931AF0B41E00A3AACF /* CoreFoundtion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreFoundtion;
+			path = Demo/CoreFoundtion;
+			sourceTree = "<group>";
+		};
+		D61D91941AF0B47B00A3AACF /* TestClass */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDBE381AF0B5BE000307CA /* TestObject.h */,
+				D6BDBE391AF0B5BE000307CA /* TestObject.m */,
+			);
+			path = TestClass;
+			sourceTree = "<group>";
+		};
 		D63A93771AEF2A6A0094B68E /* NSFoundion */ = {
 			isa = PBXGroup;
 			children = (
 				D63A93781AEF2A9B0094B68E /* FoundionDemoListViewController.h */,
 				D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */,
+				D61D91941AF0B47B00A3AACF /* TestClass */,
 				D63A937E1AEF2E4E0094B68E /* KVO的使用 */,
 			);
 			name = NSFoundion;
@@ -469,6 +522,7 @@
 		D6EA12121AD76F25004F6D87 /* CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				D61D918E1AF0B03500A3AACF /* MacroDefinition */,
 				D63A93881AEF3E050094B68E /* Foundion */,
 				1867B4301AE92421006C4160 /* CreateView */,
 				18D415A51ADEA19C003F4423 /* Header */,
@@ -573,6 +627,7 @@
 		D6EA124E1AD7722F004F6D87 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D61D91931AF0B41E00A3AACF /* CoreFoundtion */,
 				D63A93771AEF2A6A0094B68E /* NSFoundion */,
 				1867B4281AE92135006C4160 /* UIKitDemo */,
 				D6EA124F1AD77234004F6D87 /* CoreAnimation */,
@@ -583,11 +638,14 @@
 		D6EA124F1AD77234004F6D87 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				D6EA12501AD77267004F6D87 /* CATableViewController.h */,
-				D6EA12511AD77267004F6D87 /* CATableViewController.m */,
-				18D4159E1ADE9D59003F4423 /* 寄宿图 */,
+				D61D917F1AF0B01C00A3AACF /* 寄宿图 */,
+				D61D91821AF0B01C00A3AACF /* 视觉效果 */,
+				D61D91851AF0B01C00A3AACF /* 专用图层 */,
+				D61D91881AF0B01C00A3AACF /* CATableViewController.h */,
+				D61D91891AF0B01C00A3AACF /* CATableViewController.m */,
 			);
 			name = CoreAnimation;
+			path = Demo/CoreAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -693,14 +751,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				18046CCF1AD6B82000AD758D /* main.m in Sources */,
+				D61D918A1AF0B01C00A3AACF /* BoardingMapViewController.m in Sources */,
 				18046CD91AD6B91A00AD758D /* CGTableViewCell.m in Sources */,
+				D6BDBE3A1AF0B5BE000307CA /* TestObject.m in Sources */,
 				D67907FC1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m in Sources */,
 				D63A937A1AEF2A9B0094B68E /* FoundionDemoListViewController.m in Sources */,
 				D63A93811AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m in Sources */,
 				1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */,
 				D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */,
-				D6EA12521AD77267004F6D87 /* CATableViewController.m in Sources */,
 				1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */,
 				D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */,
 				D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */,
@@ -709,6 +768,7 @@
 				D64B866E1AEDE7F60052D250 /* CGBaseAutoLayoutView.m in Sources */,
 				18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */,
 				D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */,
+				D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */,
 				D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */,
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
 				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
@@ -729,9 +789,10 @@
 				D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */,
 				D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */,
 				18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */,
+				D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */,
 				D6EA12391AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m in Sources */,
 				D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */,
-				18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */,
+				D61D918D1AF0B01C00A3AACF /* CATableViewController.m in Sources */,
 				D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */,
 				D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */,
 				D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */,

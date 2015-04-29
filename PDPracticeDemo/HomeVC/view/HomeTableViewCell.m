@@ -25,6 +25,11 @@
     return [self createTitle:title class:NSClassFromString(targetClassString) loadType:isType];
 }
 
++ (HomeCellModel *)createVCTitle:(NSString *)title className:(NSString *)className
+{
+    return [self createTitle:title string:className loadType:NO];
+}
+
 + (HomeCellModel *)createTitle:(NSString *)title class:(Class)targetClass loadType:(BOOL)isType
 {
     HomeCellModel *model = [[HomeCellModel alloc] init];

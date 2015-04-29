@@ -15,8 +15,13 @@
 @implementation FoundionDemoListViewController
 
 - (void)viewDidLoad {
+    
+    self.dataSource = [NSMutableArray arrayWithArray:@[
+                                                       [HomeCellModel createVCTitle:@"KVC的使用" className:@"Key_Value_ObservingUseViewController"],
+                                                       ]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {
