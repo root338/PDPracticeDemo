@@ -28,6 +28,9 @@
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
 		18D415A11ADE9D74003F4423 /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A01ADE9D74003F4423 /* BoardingMapViewController.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
+		D63A937A1AEF2A9B0094B68E /* FoundionDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */; };
+		D63A93811AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93801AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m */; };
+		D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A938C1AEF3E050094B68E /* EXTScope.m */; };
 		D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86611AEDD7E00052D250 /* LabelViewController.m */; };
 		D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86641AEDD83A0052D250 /* UITextField+CreateAutoLayout.m */; };
 		D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86671AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m */; };
@@ -108,6 +111,14 @@
 		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
 		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
 		18D415A61ADEA1C8003F4423 /* UIViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDefine.h; sourceTree = "<group>"; };
+		D63A93781AEF2A9B0094B68E /* FoundionDemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundionDemoListViewController.h; sourceTree = "<group>"; };
+		D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundionDemoListViewController.m; sourceTree = "<group>"; };
+		D63A937F1AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Key-Value-ObservingUseViewController.h"; sourceTree = "<group>"; };
+		D63A93801AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Key-Value-ObservingUseViewController.m"; sourceTree = "<group>"; };
+		D63A938A1AEF3E050094B68E /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		D63A938B1AEF3E050094B68E /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		D63A938C1AEF3E050094B68E /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		D63A938D1AEF3E050094B68E /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		D64B86601AEDD7E00052D250 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
 		D64B86611AEDD7E00052D250 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
 		D64B86631AEDD83A0052D250 /* UITextField+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CreateAutoLayout.h"; sourceTree = "<group>"; };
@@ -376,6 +387,45 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		D63A93771AEF2A6A0094B68E /* NSFoundion */ = {
+			isa = PBXGroup;
+			children = (
+				D63A93781AEF2A9B0094B68E /* FoundionDemoListViewController.h */,
+				D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */,
+				D63A937E1AEF2E4E0094B68E /* KVO的使用 */,
+			);
+			name = NSFoundion;
+			path = Demo/NSFoundion;
+			sourceTree = "<group>";
+		};
+		D63A937E1AEF2E4E0094B68E /* KVO的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				D63A937F1AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.h */,
+				D63A93801AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m */,
+			);
+			path = "KVO的使用";
+			sourceTree = "<group>";
+		};
+		D63A93881AEF3E050094B68E /* Foundion */ = {
+			isa = PBXGroup;
+			children = (
+				D63A93891AEF3E050094B68E /* extobjc */,
+			);
+			path = Foundion;
+			sourceTree = "<group>";
+		};
+		D63A93891AEF3E050094B68E /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				D63A938A1AEF3E050094B68E /* EXTKeyPathCoding.h */,
+				D63A938B1AEF3E050094B68E /* EXTScope.h */,
+				D63A938C1AEF3E050094B68E /* EXTScope.m */,
+				D63A938D1AEF3E050094B68E /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
 		D64B865F1AEDD7CB0052D250 /* Label */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +469,7 @@
 		D6EA12121AD76F25004F6D87 /* CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				D63A93881AEF3E050094B68E /* Foundion */,
 				1867B4301AE92421006C4160 /* CreateView */,
 				18D415A51ADEA19C003F4423 /* Header */,
 				D6EA12131AD76F25004F6D87 /* CGView */,
@@ -522,6 +573,7 @@
 		D6EA124E1AD7722F004F6D87 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D63A93771AEF2A6A0094B68E /* NSFoundion */,
 				1867B4281AE92135006C4160 /* UIKitDemo */,
 				D6EA124F1AD77234004F6D87 /* CoreAnimation */,
 			);
@@ -643,6 +695,8 @@
 				18046CCF1AD6B82000AD758D /* main.m in Sources */,
 				18046CD91AD6B91A00AD758D /* CGTableViewCell.m in Sources */,
 				D67907FC1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m in Sources */,
+				D63A937A1AEF2A9B0094B68E /* FoundionDemoListViewController.m in Sources */,
+				D63A93811AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m in Sources */,
 				1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */,
 				D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */,
@@ -668,6 +722,7 @@
 				D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */,
 				D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */,
 				D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */,
+				D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */,
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
 				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
 				D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */,
