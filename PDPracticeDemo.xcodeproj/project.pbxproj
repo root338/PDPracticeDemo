@@ -27,10 +27,13 @@
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
+		D60114BC1AF1CEC9000F9B84 /* CustomSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */; };
 		D61D918A1AF0B01C00A3AACF /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */; };
 		D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91841AF0B01C00A3AACF /* VisualEffectViewController.m */; };
 		D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91871AF0B01C00A3AACF /* ProprietaryViewController.m */; };
 		D61D918D1AF0B01C00A3AACF /* CATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91891AF0B01C00A3AACF /* CATableViewController.m */; };
+		D62124EC1AF8BA8B008CFA72 /* DynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62124EB1AF8BA8B008CFA72 /* DynamicsViewController.m */; };
+		D62124EF1AF8C08A008CFA72 /* DynamicsViewController+AddView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62124EE1AF8C08A008CFA72 /* DynamicsViewController+AddView.m */; };
 		D63A937A1AEF2A9B0094B68E /* FoundionDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */; };
 		D63A93811AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93801AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m */; };
 		D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A938C1AEF3E050094B68E /* EXTScope.m */; };
@@ -48,6 +51,8 @@
 		D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907F81AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m */; };
 		D67907FC1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */; };
 		D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */; };
+		D6B395E41AF71DAB00FC87BE /* CGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B395E31AF71DAB00FC87BE /* CGPlaceholderTextView.m */; };
+		D6B395E81AF7253500FC87BE /* CustomTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B395E71AF7253500FC87BE /* CustomTextViewController.m */; };
 		D6BDBE3A1AF0B5BE000307CA /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BDBE391AF0B5BE000307CA /* TestObject.m */; };
 		D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12161AD76F25004F6D87 /* CGCropImage.m */; };
 		D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12181AD76F25004F6D87 /* CGCropView.m */; };
@@ -112,6 +117,8 @@
 		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
 		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
 		18D415A61ADEA1C8003F4423 /* UIViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDefine.h; sourceTree = "<group>"; };
+		D60114BA1AF1CEC9000F9B84 /* CustomSegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueViewController.h; sourceTree = "<group>"; };
+		D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueViewController.m; sourceTree = "<group>"; };
 		D61D91801AF0B01C00A3AACF /* BoardingMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingMapViewController.h; sourceTree = "<group>"; };
 		D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingMapViewController.m; sourceTree = "<group>"; };
 		D61D91831AF0B01C00A3AACF /* VisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectViewController.h; sourceTree = "<group>"; };
@@ -121,6 +128,10 @@
 		D61D91881AF0B01C00A3AACF /* CATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATableViewController.h; sourceTree = "<group>"; };
 		D61D91891AF0B01C00A3AACF /* CATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATableViewController.m; sourceTree = "<group>"; };
 		D61D918F1AF0B03500A3AACF /* CGDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDefine.h; sourceTree = "<group>"; };
+		D62124EA1AF8BA8B008CFA72 /* DynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicsViewController.h; sourceTree = "<group>"; };
+		D62124EB1AF8BA8B008CFA72 /* DynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicsViewController.m; sourceTree = "<group>"; };
+		D62124ED1AF8C08A008CFA72 /* DynamicsViewController+AddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DynamicsViewController+AddView.h"; sourceTree = "<group>"; };
+		D62124EE1AF8C08A008CFA72 /* DynamicsViewController+AddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DynamicsViewController+AddView.m"; sourceTree = "<group>"; };
 		D63A93781AEF2A9B0094B68E /* FoundionDemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundionDemoListViewController.h; sourceTree = "<group>"; };
 		D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundionDemoListViewController.m; sourceTree = "<group>"; };
 		D63A937F1AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Key-Value-ObservingUseViewController.h"; sourceTree = "<group>"; };
@@ -157,6 +168,10 @@
 		D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CreateAutoLayout.m"; sourceTree = "<group>"; };
 		D67907FD1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CreateAutoLayout.h"; sourceTree = "<group>"; };
 		D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		D6B395E21AF71DAB00FC87BE /* CGPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPlaceholderTextView.h; sourceTree = "<group>"; };
+		D6B395E31AF71DAB00FC87BE /* CGPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPlaceholderTextView.m; sourceTree = "<group>"; };
+		D6B395E61AF7253500FC87BE /* CustomTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextViewController.h; sourceTree = "<group>"; };
+		D6B395E71AF7253500FC87BE /* CustomTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextViewController.m; sourceTree = "<group>"; };
 		D6BDBE381AF0B5BE000307CA /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		D6BDBE391AF0B5BE000307CA /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		D6EA12151AD76F25004F6D87 /* CGCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCropImage.h; sourceTree = "<group>"; };
@@ -335,6 +350,9 @@
 			children = (
 				1867B4291AE921AD006C4160 /* UIKitDemoViewController.h */,
 				1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */,
+				D62124E91AF8BA64008CFA72 /* UIKit动力学 */,
+				D6B395E51AF7251500FC87BE /* Text */,
+				D60114B91AF1CEB1000F9B84 /* Segue使用示例 */,
 				D64B86831AEE1E950052D250 /* UIView */,
 				D64B865F1AEDD7CB0052D250 /* Label */,
 				1867B42C1AE9222C006C4160 /* TableView */,
@@ -387,6 +405,15 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		D60114B91AF1CEB1000F9B84 /* Segue使用示例 */ = {
+			isa = PBXGroup;
+			children = (
+				D60114BA1AF1CEC9000F9B84 /* CustomSegueViewController.h */,
+				D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */,
+			);
+			path = "Segue使用示例";
+			sourceTree = "<group>";
+		};
 		D61D917F1AF0B01C00A3AACF /* 寄宿图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,6 +464,17 @@
 				D6BDBE391AF0B5BE000307CA /* TestObject.m */,
 			);
 			path = TestClass;
+			sourceTree = "<group>";
+		};
+		D62124E91AF8BA64008CFA72 /* UIKit动力学 */ = {
+			isa = PBXGroup;
+			children = (
+				D62124EA1AF8BA8B008CFA72 /* DynamicsViewController.h */,
+				D62124EB1AF8BA8B008CFA72 /* DynamicsViewController.m */,
+				D62124ED1AF8C08A008CFA72 /* DynamicsViewController+AddView.h */,
+				D62124EE1AF8C08A008CFA72 /* DynamicsViewController+AddView.m */,
+			);
+			path = "UIKit动力学";
 			sourceTree = "<group>";
 		};
 		D63A93771AEF2A6A0094B68E /* NSFoundion */ = {
@@ -506,6 +544,8 @@
 			children = (
 				D64B86761AEDF81D0052D250 /* CGBaseTextField.h */,
 				D64B86771AEDF81D0052D250 /* CGBaseTextField.m */,
+				D6B395E21AF71DAB00FC87BE /* CGPlaceholderTextView.h */,
+				D6B395E31AF71DAB00FC87BE /* CGPlaceholderTextView.m */,
 			);
 			path = CGTextField;
 			sourceTree = "<group>";
@@ -517,6 +557,15 @@
 				D64B86851AEE1E950052D250 /* SubCustomViewController.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		D6B395E51AF7251500FC87BE /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				D6B395E61AF7253500FC87BE /* CustomTextViewController.h */,
+				D6B395E71AF7253500FC87BE /* CustomTextViewController.m */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 		D6EA12121AD76F25004F6D87 /* CGKit */ = {
@@ -760,6 +809,7 @@
 				1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */,
 				D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */,
+				D60114BC1AF1CEC9000F9B84 /* CustomSegueViewController.m in Sources */,
 				1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */,
 				D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */,
 				D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */,
@@ -767,8 +817,10 @@
 				D64B86711AEDF5ED0052D250 /* CGTitleBaseView.m in Sources */,
 				D64B866E1AEDE7F60052D250 /* CGBaseAutoLayoutView.m in Sources */,
 				18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */,
+				D62124EC1AF8BA8B008CFA72 /* DynamicsViewController.m in Sources */,
 				D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */,
 				D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */,
+				D6B395E81AF7253500FC87BE /* CustomTextViewController.m in Sources */,
 				D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */,
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
 				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
@@ -782,7 +834,9 @@
 				D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */,
 				D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */,
 				D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */,
+				D6B395E41AF71DAB00FC87BE /* CGPlaceholderTextView.m in Sources */,
 				D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */,
+				D62124EF1AF8C08A008CFA72 /* DynamicsViewController+AddView.m in Sources */,
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
 				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
 				D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */,
@@ -927,6 +981,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -942,6 +997,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

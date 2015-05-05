@@ -11,4 +11,9 @@
 
 @interface BaseViewController : UIViewController
 
+/**
+ *  移除点击屏幕显隐导航栏
+ */
+@property (assign, nonatomic) BOOL isRemoveTapHideNavgation;
+
 @end

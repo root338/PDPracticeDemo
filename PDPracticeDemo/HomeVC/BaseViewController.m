@@ -9,7 +9,9 @@
 #import "BaseViewController.h"
 
 @interface BaseViewController ()
-
+{
+    UITapGestureRecognizer *tap;
+}
 @end
 
 @implementation BaseViewController
@@ -19,6 +21,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self tapToggle];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,6 +29,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tapToggle
+{
+    if (!tap) {
+        tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapClickAction:)];
+        [self.view addGestureRecognizer:tap];
+    }else {
+        [self.view removeGestureRecognizer:tap];
+        tap = nil;
+    }
+}
+
+- (void)handleTapClickAction:(UITapGestureRecognizer *)tapGestureRecognizer
+{
+    [self.navigationController setNavigationBarHidden:!self.navigationController.navigationBarHidden animated:YES];
+}
 /*
 #pragma mark - Navigation
 
