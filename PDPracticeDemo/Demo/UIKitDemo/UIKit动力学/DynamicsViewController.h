@@ -22,5 +22,7 @@
 
 @property (strong, nonatomic) UIDynamicAnimator *animator;
 
+@property (strong, nonatomic) UIView *subTestKitDynamic;
 
+@property (strong, nonatomic) UIAttachmentBehavior *attachment;
 @end

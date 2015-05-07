@@ -28,6 +28,8 @@
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
 		D60114BC1AF1CEC9000F9B84 /* CustomSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */; };
+		D6189DDF1AF9EBA0001C3E21 /* TestSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6189DDE1AF9EBA0001C3E21 /* TestSessionViewController.m */; };
+		D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6189DE21AF9F736001C3E21 /* TestCollectionViewController.m */; };
 		D61D918A1AF0B01C00A3AACF /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */; };
 		D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91841AF0B01C00A3AACF /* VisualEffectViewController.m */; };
 		D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91871AF0B01C00A3AACF /* ProprietaryViewController.m */; };
@@ -119,6 +121,10 @@
 		18D415A61ADEA1C8003F4423 /* UIViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDefine.h; sourceTree = "<group>"; };
 		D60114BA1AF1CEC9000F9B84 /* CustomSegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueViewController.h; sourceTree = "<group>"; };
 		D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueViewController.m; sourceTree = "<group>"; };
+		D6189DDD1AF9EBA0001C3E21 /* TestSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSessionViewController.h; sourceTree = "<group>"; };
+		D6189DDE1AF9EBA0001C3E21 /* TestSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSessionViewController.m; sourceTree = "<group>"; };
+		D6189DE11AF9F736001C3E21 /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		D6189DE21AF9F736001C3E21 /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
 		D61D91801AF0B01C00A3AACF /* BoardingMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingMapViewController.h; sourceTree = "<group>"; };
 		D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingMapViewController.m; sourceTree = "<group>"; };
 		D61D91831AF0B01C00A3AACF /* VisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectViewController.h; sourceTree = "<group>"; };
@@ -348,6 +354,7 @@
 		1867B4281AE92135006C4160 /* UIKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6189DE01AF9F722001C3E21 /* CollectionView */,
 				1867B4291AE921AD006C4160 /* UIKitDemoViewController.h */,
 				1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */,
 				D62124E91AF8BA64008CFA72 /* UIKit动力学 */,
@@ -412,6 +419,24 @@
 				D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */,
 			);
 			path = "Segue使用示例";
+			sourceTree = "<group>";
+		};
+		D6189DDC1AF9E404001C3E21 /* NSSession */ = {
+			isa = PBXGroup;
+			children = (
+				D6189DDD1AF9EBA0001C3E21 /* TestSessionViewController.h */,
+				D6189DDE1AF9EBA0001C3E21 /* TestSessionViewController.m */,
+			);
+			path = NSSession;
+			sourceTree = "<group>";
+		};
+		D6189DE01AF9F722001C3E21 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D6189DE11AF9F736001C3E21 /* TestCollectionViewController.h */,
+				D6189DE21AF9F736001C3E21 /* TestCollectionViewController.m */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		D61D917F1AF0B01C00A3AACF /* 寄宿图 */ = {
@@ -480,6 +505,7 @@
 		D63A93771AEF2A6A0094B68E /* NSFoundion */ = {
 			isa = PBXGroup;
 			children = (
+				D6189DDC1AF9E404001C3E21 /* NSSession */,
 				D63A93781AEF2A9B0094B68E /* FoundionDemoListViewController.h */,
 				D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */,
 				D61D91941AF0B47B00A3AACF /* TestClass */,
@@ -746,6 +772,11 @@
 				TargetAttributes = {
 					18046C8D1AD6B55500AD758D = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					18046CA61AD6B55500AD758D = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -825,6 +856,7 @@
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
 				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
 				D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */,
+				D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */,
 				D64B86741AEDF67F0052D250 /* CGTitleTextField.m in Sources */,
 				D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */,
 				18046CC71AD6B81000AD758D /* CGRootViewController.m in Sources */,
@@ -852,6 +884,7 @@
 				D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */,
 				18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */,
 				D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */,
+				D6189DDF1AF9EBA0001C3E21 /* TestSessionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,11 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
-
+@interface AppDelegate ()<NSURLSessionDelegate>
+{
+    NSURLSession *_session;
+    NSURLSessionTask *_downloadTask;
+}
 @end
 
 @implementation AppDelegate
@@ -17,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    /**
+     *  设置获取间隔
+     *
+     *  如果不对最小后台获取间隔进行设定的话，系统使用默认的 UIApplicationBackgroundFetchIntervalNever
+     *
+     *  UIApplicationBackgroundFetchIntervalMinimum   系统会尽可能多尽可能快地为你的应用进行后台获取
+     *  UIApplicationBackgroundFetchIntervalNever 永远不进行后台获取
+     */
+    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
     // Override point for customization after application launch.
     return YES;
 }
@@ -48,4 +60,52 @@
     return UIInterfaceOrientationMaskAll;
 }
 
+- (NSURLSession *)backgroundSession
+{
+    static NSURLSession *session = nil;
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:@"com.PD.backgroundSession"];
+        session = [NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:nil];
+    });
+    
+    return session;
+}
+
+- (void)beginDonwlaod
+{
+    NSURL *downloadURL = [NSURL URLWithString:nil];
+    NSURLRequest *request = [NSURLRequest requestWithURL:downloadURL];
+    _session = [self backgroundSession];
+    _downloadTask = [_session downloadTaskWithRequest:request];
+    [_downloadTask resume];
+}
+
+- (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler
+{
+    
+    
+    completionHandler();
+}
+
+//推送唤醒
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    
+}
+
+//在这个代理方法里处理fetch
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    /**
+     *  应用的数据获取处理
+     */
+    NSLog(@"后台gengxin");
+    completionHandler(UIBackgroundFetchResultNewData);
+    //当处理完成后调用 completionHandler 通知系统获取完成
+//    UIBackgroundFetchResultNewData    获取到了新数据,
+//    UIBackgroundFetchResultNoData     没有新数据,
+//    UIBackgroundFetchResultFailed     获取失败
+}
 @end
