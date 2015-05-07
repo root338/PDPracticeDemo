@@ -7,9 +7,14 @@
 //
 
 #import "TestCollectionViewController.h"
+#import "UIView+Frame.h"
 
-@interface TestCollectionViewController ()
+NSString * const cellIdentifion = @"cellIdentifion";
 
+@interface TestCollectionViewController ()<UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+{
+    UICollectionView *_collectionView;
+}
 @end
 
 @implementation TestCollectionViewController
@@ -17,6 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    flowLayout.itemSize = CGSizeMake(self.view.width - 20, 30);
+    flowLayout.sectionInset = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>)
+    
+    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:<#(UICollectionViewLayout *)#>];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +35,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return 60;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *cellResue = cellIdentifion;
+    
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellResue forIndexPath:indexPath];
+    
+    CGFloat red = arc4random() % 255 / 255.0;
+    CGFloat green = arc4random() % 255 / 255.0;
+    CGFloat blue = arc4random() % 255 / 255.0;
+    cell.contentView.backgroundColor = [UIColor colorWithHue:red saturation:green brightness:blue alpha:1];
+    
+    return cell;
+}
 /*
 #pragma mark - Navigation
 

@@ -31,6 +31,8 @@
         [self addObserver:self forKeyPath:@"testKVOStr" options:NSKeyValueObservingOptionNew context:nil];
         
         NSLog(@"%s", __func__);
+        
+        
     }
     return self;
 }

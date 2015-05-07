@@ -22,7 +22,8 @@
                                                        [HomeCellModel createTitle:@"使用auto layout计算cell" string:@"AutoLayoutTableViewController" loadType:NO],
                                                        [HomeCellModel createTitle:@"自定义Label的使用示例" string:@"LabelViewController" loadType:NO],
                                                        [HomeCellModel createTitle:@"自定义View的使用示例" string:@"SubCustomViewController" loadType:NO],
-                                                       [HomeCellModel createVCTitle:@"UIKit Dynamic" className:@"DynamicsViewController"]
+                                                       [HomeCellModel createVCTitle:@"UIKit Dynamic" className:@"DynamicsViewController"],
+                                                       [HomeCellModel createVCTitle:@"弹簧式列表" className:@"TestCollectionViewController"]
                                                        ]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
