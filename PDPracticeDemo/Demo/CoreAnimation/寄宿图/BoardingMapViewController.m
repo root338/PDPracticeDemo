@@ -7,7 +7,7 @@
 //
 
 #import "BoardingMapViewController.h"
-#import <QuartzCore/QuartzCore.h>
+@import QuartzCore;
 #import "UIView+Frame.h"
 #import "UIViewDefine.h"
 

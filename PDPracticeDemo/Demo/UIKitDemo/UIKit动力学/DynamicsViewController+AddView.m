@@ -13,65 +13,48 @@
 - (void)setupSubViews
 {
     [self demoView1];
-    [self demoView2];
 }
 
 - (void)demoView1
 {
+    
     //动态  Dynamic
     
     UIView *aView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     aView.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:aView];
-    self.subTestDynamicView = aView;
+    self.subTestKitDynamic = aView;
     
-    //设置角度
-//    aView.transform = CGAffineTransformRotate(aView.transform, 45);
+    self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
     
-    UIDynamicAnimator *animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+    //重力
+    UIGravityBehavior *gravity = [[UIGravityBehavior alloc] initWithItems:@[aView]];
+    [self.animator addBehavior:gravity];
     
-    //碰撞 Collision
+    //碰撞
+    UICollisionBehavior *collision = [[UICollisionBehavior alloc] initWithItems:@[aView]];
+    collision.translatesReferenceBoundsIntoBoundary = YES;
+    [self.animator addBehavior:collision];
     
-    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[aView]];
-    
-    //设置碰撞边界
-    collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
-    
-    [animator addBehavior:collisionBehavior];
-    collisionBehavior.collisionDelegate = self;
-    
-    
-    //重力 Gravity
-    UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[aView]];
-    [animator addBehavior:gravityBehavior];
-    
-    self.animator = animator;
-}
-
-- (void)demoView2
-{
-    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanGestureReognizer:)];
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanGestureRecognizer:)];
     [self.view addGestureRecognizer:pan];
 }
 
-- (void)handlePanGestureReognizer:(UIPanGestureRecognizer *)paramPan
+- (void)handlePanGestureRecognizer:(UIPanGestureRecognizer *)gesture
 {
-    if (paramPan.state == UIGestureRecognizerStateBegan) {
+    if (gesture.state == UIGestureRecognizerStateBegan) {
         
-        CGPoint attachedToanchror = CGPointMake(self.subTestDynamicView.center.x, self.subTestDynamicView.center.y - 100);
-//        CGPoint offsetFromCenter = CGPointMake(-25, -25);
+        CGPoint anchor = CGPointMake(self.subTestKitDynamic.center.x, self.subTestKitDynamic.center.y);
         UIOffset offset = UIOffsetMake(-25, -25);
-        
-        UIAttachmentBehavior *attachment = [[UIAttachmentBehavior alloc] initWithItem:self.subTestDynamicView offsetFromCenter:offset attachedToAnchor:attachedToanchror];
-        self.attachmentBehavior = attachment;
+        UIAttachmentBehavior *attachment = [[UIAttachmentBehavior alloc] initWithItem:self.subTestKitDynamic offsetFromCenter:offset attachedToAnchor:anchor];
         [self.animator addBehavior:attachment];
-    }else if (paramPan.state == UIGestureRecognizerStateChanged) {
+        self.attachment = attachment;
+    }else if (gesture.state == UIGestureRecognizerStateChanged) {
         
-        [self.attachmentBehavior setAnchorPoint:[paramPan locationInView:self.view]];
-    }else if (paramPan.state == UIGestureRecognizerStateEnded) {
+        [self.attachment setAnchorPoint:[gesture locationInView:self.view]];
+    }else if (gesture.state == UIGestureRecognizerStateEnded) {
         
-        [self.animator removeBehavior:self.attachmentBehavior];
+        [self.animator removeBehavior:self.attachment];
     }
 }
-
 @end

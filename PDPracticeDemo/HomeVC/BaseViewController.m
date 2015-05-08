@@ -24,7 +24,6 @@
     if (!self.isRemoveTapHideNavgation) {
         [self tapToggle];
     }
-    
 }
 
 - (void)didReceiveMemoryWarning {
