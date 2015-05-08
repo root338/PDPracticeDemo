@@ -16,6 +16,8 @@
 @implementation DynamicsViewController
 
 - (void)viewDidLoad {
+    
+    self.isRemoveTapHideNavgation = YES;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     

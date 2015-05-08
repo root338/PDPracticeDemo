@@ -21,7 +21,10 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self tapToggle];
+    if (!self.isRemoveTapHideNavgation) {
+        [self tapToggle];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
