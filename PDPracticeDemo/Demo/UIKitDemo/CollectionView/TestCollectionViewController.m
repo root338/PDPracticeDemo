@@ -25,9 +25,7 @@ NSString * const cellIdentifion = @"cellIdentifion";
     
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.itemSize = CGSizeMake(self.view.width - 20, 30);
-    flowLayout.sectionInset = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>)
     
-    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:<#(UICollectionViewLayout *)#>];
 }
 
 - (void)didReceiveMemoryWarning {
