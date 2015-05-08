@@ -9,7 +9,7 @@
 #import "BoardingMapViewController.h"
 @import QuartzCore;
 #import "UIView+Frame.h"
-#import "UIViewDefine.h"
+#import "UIViewCommonDefine.h"
 
 @interface BoardingMapViewController ()
 {

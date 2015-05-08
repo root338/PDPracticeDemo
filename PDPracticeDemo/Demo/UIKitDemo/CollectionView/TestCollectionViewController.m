@@ -8,6 +8,9 @@
 
 #import "TestCollectionViewController.h"
 #import "UIView+Frame.h"
+#import "AreaEdge.h"
+#import "UIViewCommonDefine.h"
+#import "CGSpringCollectionViewFlowLayout.h"
 
 NSString * const cellIdentifion = @"cellIdentifion";
 
@@ -23,11 +26,19 @@ NSString * const cellIdentifion = @"cellIdentifion";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    CGSpringCollectionViewFlowLayout *flowLayout = [[CGSpringCollectionViewFlowLayout alloc] init];
     flowLayout.itemSize = CGSizeMake(self.view.width - 20, 30);
-    flowLayout.sectionInset = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>)
+    flowLayout.sectionInset = UIEdgeInsetsEqualMake(8);
     
-    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:<#(UICollectionViewLayout *)#>];
+    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
+    _collectionView.autoresizingMask = UIViewAutoresizingFlexibleEdgeMargin;
+    _collectionView.delegate = self;
+    _collectionView.dataSource = self;
+    [self.view addSubview:_collectionView];
+    
+    [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellIdentifion];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,10 +57,10 @@ NSString * const cellIdentifion = @"cellIdentifion";
     
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellResue forIndexPath:indexPath];
     
-    CGFloat red = arc4random() % 255 / 255.0;
-    CGFloat green = arc4random() % 255 / 255.0;
-    CGFloat blue = arc4random() % 255 / 255.0;
-    cell.contentView.backgroundColor = [UIColor colorWithHue:red saturation:green brightness:blue alpha:1];
+    CGFloat red = arc4random() % 255;
+    CGFloat green = arc4random() % 255;
+    CGFloat blue = arc4random() % 255;
+    cell.contentView.backgroundColor = __KRGB(red, green, blue);
     
     return cell;
 }
