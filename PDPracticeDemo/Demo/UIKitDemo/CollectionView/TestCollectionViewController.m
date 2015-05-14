@@ -27,6 +27,7 @@ NSString * const cellIdentifion = @"cellIdentifion";
     // Do any additional setup after loading the view.
     
     CGSpringCollectionViewFlowLayout *flowLayout = [[CGSpringCollectionViewFlowLayout alloc] init];
+    
     flowLayout.itemSize = CGSizeMake(self.view.width - 20, 30);
     flowLayout.sectionInset = UIEdgeInsetsEqualMake(8);
     
@@ -37,8 +38,6 @@ NSString * const cellIdentifion = @"cellIdentifion";
     [self.view addSubview:_collectionView];
     
     [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellIdentifion];
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

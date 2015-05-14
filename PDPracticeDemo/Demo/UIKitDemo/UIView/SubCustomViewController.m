@@ -8,13 +8,20 @@
 
 #import "SubCustomViewController.h"
 #import "CGTitleTextField.h"
+#import "CGSingleScrollView.h"
+#import "UIView+Frame.h"
+#import "AreaEdge.h"
 
-@interface SubCustomViewController ()
+@interface SubCustomViewController ()<CGSingleScrollViewDataSource>
 {
     BOOL didSetupConstraints;
     UIScrollView *_scrollView;
     
     CGTitleTextField *_titleTextField;
+    
+    CGSingleScrollView *_tabScrollView;
+    
+    NSArray *_dataSource;
 }
 @end
 
@@ -59,6 +66,25 @@
     _titleTextField.layer.borderWidth = 1;
     
     [_scrollView addSubview:_titleTextField];
+    
+    _dataSource = @[
+                    @"标题",
+                    @"控件",
+                    @"好处",
+                    @"完美的",
+                    @"好处多多",
+                    @"饮食而已",
+                    @"随表",
+                    @"逛逛",
+                    @"随缘",
+                    ];
+    
+    _tabScrollView = [[CGSingleScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 40)];
+//    _tabScrollView.itemWidth = 50;
+    _tabScrollView.itemSpace = 8;
+    [self.view addSubview:_tabScrollView];
+    
+    _tabScrollView.delegate = self;
 }
 
 - (void)updateViewConstraints
@@ -80,8 +106,42 @@
             [_titleTextField autoSetDimension:ALDimensionWidth toSize:self.view.bounds.size.width - edgeInsets.left - edgeInsets.right];
         }];
         
+        [_tabScrollView autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsEqualMake(20) excludingEdge:ALEdgeTop];
+        [_tabScrollView autoSetDimension:ALDimensionHeight toSize:40];
+        
         didSetupConstraints = YES;
     }
     [super updateViewConstraints];
+}
+
+#pragma mark - CGTabScrollViewDataSource
+- (NSInteger)tabScrollViewNumberView:(CGSingleScrollView *)tabScrollView
+{
+    return _dataSource.count;
+}
+
+- (CGFloat)tabScrollView:(CGSingleScrollView *)tabScrollView widthForIndex:(NSInteger)index
+{
+    NSDictionary *dic = @{
+                          NSFontAttributeName : [UIFont systemFontOfSize:15]
+                          };
+    NSString *title = _dataSource[index];
+    CGSize fontSize = [title sizeWithAttributes:dic];
+    
+    return fontSize.width + 10;
+}
+
+- (UIView *)tabScrollView:(CGSingleScrollView *)tabScrollView numberViewAtIndex:(NSInteger)index
+{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button setTitle:_dataSource[index] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
+    [button addTarget:self action:@selector(handleButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
+    return button;
+}
+
+- (void)handleButtonEvent:(id)sender
+{
+    [sender setSelected:YES];
 }
 @end
