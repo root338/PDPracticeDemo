@@ -11,6 +11,9 @@
 #import "CGSingleScrollView.h"
 #import "UIView+Frame.h"
 #import "AreaEdge.h"
+#import "CGSingleControlView.h"
+#import "CGSingleContentView.h"
+#import "CGSingleSliderView.h"
 
 @interface SubCustomViewController ()<CGSingleScrollViewDataSource>
 {
@@ -20,6 +23,8 @@
     CGTitleTextField *_titleTextField;
     
     CGSingleScrollView *_tabScrollView;
+    
+    CGSingleControlView *_controlView;
     
     NSArray *_dataSource;
 }
@@ -85,6 +90,16 @@
     [self.view addSubview:_tabScrollView];
     
     _tabScrollView.delegate = self;
+    
+    _controlView = [CGSingleControlView newAutoLayoutView];
+    
+    _controlView.contentView.normalTitleColor = [UIColor blackColor];
+    _controlView.contentView.selectedTitleColor = [UIColor redColor];
+    _controlView.sliderView.sliderWidthType = CGSliderWidthTypeEqualTitleWidth;
+    _controlView.sliderView.backgroundColor = _controlView.contentView.selectedTitleColor;
+    
+    _controlView.titles = @[@"标题", @"控件", @"完美的", @"随处逛逛"];
+    [self.view addSubview:_controlView];
 }
 
 - (void)updateViewConstraints
@@ -108,6 +123,9 @@
         
         [_tabScrollView autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsEqualMake(20) excludingEdge:ALEdgeTop];
         [_tabScrollView autoSetDimension:ALDimensionHeight toSize:40];
+        
+        [_controlView autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsMake(0, 0, 120, 0) excludingEdge:ALEdgeTop];
+        [_controlView autoSetDimension:ALDimensionHeight toSize:40];
         
         didSetupConstraints = YES;
     }

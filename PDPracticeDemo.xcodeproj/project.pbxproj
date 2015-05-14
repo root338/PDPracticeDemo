@@ -29,6 +29,9 @@
 		1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */; };
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
+		18C5EBAF1B04E002009F006A /* CGSingleSubControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBAE1B04E002009F006A /* CGSingleSubControl.m */; };
+		18C5EBB21B04EE11009F006A /* UIControl+CalculateArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */; };
+		18C5EBB51B04EE37009F006A /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB41B04EE37009F006A /* CGSomeColorButton.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
 		D60114BC1AF1CEC9000F9B84 /* CustomSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */; };
 		D6189DDF1AF9EBA0001C3E21 /* TestSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6189DDE1AF9EBA0001C3E21 /* TestSessionViewController.m */; };
@@ -82,7 +85,6 @@
 		D6F4E1581B049D59001587FD /* CGSingleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1511B049D59001587FD /* CGSingleContentView.m */; };
 		D6F4E1591B049D59001587FD /* CGSingleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1531B049D59001587FD /* CGSingleControlView.m */; };
 		D6F4E15A1B049D59001587FD /* CGSingleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1551B049D59001587FD /* CGSingleSliderView.m */; };
-		D6F4E15B1B049D59001587FD /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1571B049D59001587FD /* CGSomeColorButton.m */; };
 		D6F4E1601B04A2EE001587FD /* CGSingleBaseContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E15F1B04A2EE001587FD /* CGSingleBaseContentView.m */; };
 /* End PBXBuildFile section */
 
@@ -134,6 +136,12 @@
 		1867B42D1AE92248006C4160 /* AutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewController.h; sourceTree = "<group>"; };
 		1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewController.m; sourceTree = "<group>"; };
 		1867B4361AE92E23006C4160 /* car_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_001.jpg; sourceTree = "<group>"; };
+		18C5EBAD1B04E002009F006A /* CGSingleSubControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSubControl.h; sourceTree = "<group>"; };
+		18C5EBAE1B04E002009F006A /* CGSingleSubControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSubControl.m; sourceTree = "<group>"; };
+		18C5EBB01B04EE11009F006A /* UIControl+CalculateArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CalculateArea.h"; sourceTree = "<group>"; };
+		18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CalculateArea.m"; sourceTree = "<group>"; };
+		18C5EBB31B04EE37009F006A /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
+		18C5EBB41B04EE37009F006A /* CGSomeColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSomeColorButton.m; sourceTree = "<group>"; };
 		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
 		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
 		18D415A61ADEA1C8003F4423 /* UIViewCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewCommonDefine.h; sourceTree = "<group>"; };
@@ -246,8 +254,6 @@
 		D6F4E1531B049D59001587FD /* CGSingleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleControlView.m; sourceTree = "<group>"; };
 		D6F4E1541B049D59001587FD /* CGSingleSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSliderView.h; sourceTree = "<group>"; };
 		D6F4E1551B049D59001587FD /* CGSingleSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSliderView.m; sourceTree = "<group>"; };
-		D6F4E1561B049D59001587FD /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
-		D6F4E1571B049D59001587FD /* CGSomeColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSomeColorButton.m; sourceTree = "<group>"; };
 		D6F4E15D1B04A1DB001587FD /* CGSingleViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleViewDataSource.h; sourceTree = "<group>"; };
 		D6F4E15E1B04A2EE001587FD /* CGSingleBaseContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleBaseContentView.h; sourceTree = "<group>"; };
 		D6F4E15F1B04A2EE001587FD /* CGSingleBaseContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleBaseContentView.m; sourceTree = "<group>"; };
@@ -408,6 +414,10 @@
 			children = (
 				185C2C271AFCDF8A005FD205 /* CGCustomSelectButton.h */,
 				185C2C281AFCDF8A005FD205 /* CGCustomSelectButton.m */,
+				18C5EBB31B04EE37009F006A /* CGSomeColorButton.h */,
+				18C5EBB41B04EE37009F006A /* CGSomeColorButton.m */,
+				18C5EBB01B04EE11009F006A /* UIControl+CalculateArea.h */,
+				18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */,
 			);
 			path = CGButton;
 			sourceTree = "<group>";
@@ -820,8 +830,8 @@
 				D6F4E1531B049D59001587FD /* CGSingleControlView.m */,
 				D6F4E1541B049D59001587FD /* CGSingleSliderView.h */,
 				D6F4E1551B049D59001587FD /* CGSingleSliderView.m */,
-				D6F4E1561B049D59001587FD /* CGSomeColorButton.h */,
-				D6F4E1571B049D59001587FD /* CGSomeColorButton.m */,
+				18C5EBAD1B04E002009F006A /* CGSingleSubControl.h */,
+				18C5EBAE1B04E002009F006A /* CGSingleSubControl.m */,
 			);
 			path = SingleControlView;
 			sourceTree = "<group>";
@@ -964,12 +974,12 @@
 				D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */,
 				185C2C231AFCDD1A005FD205 /* CGRadioView.m in Sources */,
 				D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */,
-				D6F4E15B1B049D59001587FD /* CGSomeColorButton.m in Sources */,
 				D6B395E81AF7253500FC87BE /* CustomTextViewController.m in Sources */,
 				D6F4E1591B049D59001587FD /* CGSingleControlView.m in Sources */,
 				D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */,
 				D6F4E1581B049D59001587FD /* CGSingleContentView.m in Sources */,
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
+				18C5EBAF1B04E002009F006A /* CGSingleSubControl.m in Sources */,
 				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
 				D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */,
 				D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */,
@@ -991,11 +1001,13 @@
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
 				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
 				D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */,
+				18C5EBB21B04EE11009F006A /* UIControl+CalculateArea.m in Sources */,
 				D6EA12371AD76F25004F6D87 /* CGCropView.m in Sources */,
 				D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */,
 				18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */,
 				D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */,
 				D6EA12391AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m in Sources */,
+				18C5EBB51B04EE37009F006A /* CGSomeColorButton.m in Sources */,
 				D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */,
 				D61D918D1AF0B01C00A3AACF /* CATableViewController.m in Sources */,
 				D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */,
