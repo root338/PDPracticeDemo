@@ -77,9 +77,13 @@
 		D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12351AD76F25004F6D87 /* UIView+Frame.m */; };
 		D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */; };
 		D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA124C1AD771E9004F6D87 /* HomeViewController.m */; };
-		D6F4E1411B0475E6001587FD /* CGSingleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E13C1B0475E6001587FD /* CGSingleControlView.m */; };
 		D6F4E1421B0475E6001587FD /* CGSingleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E13E1B0475E6001587FD /* CGSingleScrollView.m */; };
-		D6F4E1431B0475E6001587FD /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1401B0475E6001587FD /* CGSomeColorButton.m */; };
+		D6F4E1471B047F28001587FD /* NSObject+NavigationAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1461B047F28001587FD /* NSObject+NavigationAppearance.m */; };
+		D6F4E1581B049D59001587FD /* CGSingleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1511B049D59001587FD /* CGSingleContentView.m */; };
+		D6F4E1591B049D59001587FD /* CGSingleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1531B049D59001587FD /* CGSingleControlView.m */; };
+		D6F4E15A1B049D59001587FD /* CGSingleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1551B049D59001587FD /* CGSingleSliderView.m */; };
+		D6F4E15B1B049D59001587FD /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1571B049D59001587FD /* CGSomeColorButton.m */; };
+		D6F4E1601B04A2EE001587FD /* CGSingleBaseContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E15F1B04A2EE001587FD /* CGSingleBaseContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,12 +236,21 @@
 		D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeApplicationLanguage.m; sourceTree = "<group>"; };
 		D6EA124B1AD771E9004F6D87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = HomeVC/HomeViewController.h; sourceTree = "<group>"; };
 		D6EA124C1AD771E9004F6D87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = HomeVC/HomeViewController.m; sourceTree = "<group>"; };
-		D6F4E13B1B0475E6001587FD /* CGSingleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleControlView.h; sourceTree = "<group>"; };
-		D6F4E13C1B0475E6001587FD /* CGSingleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleControlView.m; sourceTree = "<group>"; };
 		D6F4E13D1B0475E6001587FD /* CGSingleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleScrollView.h; sourceTree = "<group>"; };
 		D6F4E13E1B0475E6001587FD /* CGSingleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleScrollView.m; sourceTree = "<group>"; };
-		D6F4E13F1B0475E6001587FD /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
-		D6F4E1401B0475E6001587FD /* CGSomeColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSomeColorButton.m; sourceTree = "<group>"; };
+		D6F4E1451B047F28001587FD /* NSObject+NavigationAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NavigationAppearance.h"; sourceTree = "<group>"; };
+		D6F4E1461B047F28001587FD /* NSObject+NavigationAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NavigationAppearance.m"; sourceTree = "<group>"; };
+		D6F4E1501B049D59001587FD /* CGSingleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleContentView.h; sourceTree = "<group>"; };
+		D6F4E1511B049D59001587FD /* CGSingleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleContentView.m; sourceTree = "<group>"; };
+		D6F4E1521B049D59001587FD /* CGSingleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleControlView.h; sourceTree = "<group>"; };
+		D6F4E1531B049D59001587FD /* CGSingleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleControlView.m; sourceTree = "<group>"; };
+		D6F4E1541B049D59001587FD /* CGSingleSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSliderView.h; sourceTree = "<group>"; };
+		D6F4E1551B049D59001587FD /* CGSingleSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSliderView.m; sourceTree = "<group>"; };
+		D6F4E1561B049D59001587FD /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
+		D6F4E1571B049D59001587FD /* CGSomeColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSomeColorButton.m; sourceTree = "<group>"; };
+		D6F4E15D1B04A1DB001587FD /* CGSingleViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleViewDataSource.h; sourceTree = "<group>"; };
+		D6F4E15E1B04A2EE001587FD /* CGSingleBaseContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleBaseContentView.h; sourceTree = "<group>"; };
+		D6F4E15F1B04A2EE001587FD /* CGSingleBaseContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleBaseContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,16 +391,14 @@
 		185C2C1C1AFCDD1A005FD205 /* CGScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				D6F4E15C1B04A1BD001587FD /* SingleDelegate */,
+				D6F4E14F1B049D31001587FD /* SingleControlView */,
 				185C2C1D1AFCDD1A005FD205 /* CGRadioView.h */,
 				185C2C1E1AFCDD1A005FD205 /* CGRadioView.m */,
 				185C2C1F1AFCDD1A005FD205 /* CGScrollView.h */,
 				185C2C201AFCDD1A005FD205 /* CGScrollView.m */,
-				D6F4E13B1B0475E6001587FD /* CGSingleControlView.h */,
-				D6F4E13C1B0475E6001587FD /* CGSingleControlView.m */,
 				D6F4E13D1B0475E6001587FD /* CGSingleScrollView.h */,
 				D6F4E13E1B0475E6001587FD /* CGSingleScrollView.m */,
-				D6F4E13F1B0475E6001587FD /* CGSomeColorButton.h */,
-				D6F4E1401B0475E6001587FD /* CGSomeColorButton.m */,
 			);
 			path = CGScrollView;
 			sourceTree = "<group>";
@@ -766,6 +777,7 @@
 		D6EA124E1AD7722F004F6D87 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D6F4E1441B047A95001587FD /* SetNavigation */,
 				D61D91931AF0B41E00A3AACF /* CoreFoundtion */,
 				D63A93771AEF2A6A0094B68E /* NSFoundion */,
 				1867B4281AE92135006C4160 /* UIKitDemo */,
@@ -785,6 +797,41 @@
 			);
 			name = CoreAnimation;
 			path = Demo/CoreAnimation;
+			sourceTree = "<group>";
+		};
+		D6F4E1441B047A95001587FD /* SetNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D6F4E1451B047F28001587FD /* NSObject+NavigationAppearance.h */,
+				D6F4E1461B047F28001587FD /* NSObject+NavigationAppearance.m */,
+			);
+			name = SetNavigation;
+			path = Demo/SetNavigation;
+			sourceTree = "<group>";
+		};
+		D6F4E14F1B049D31001587FD /* SingleControlView */ = {
+			isa = PBXGroup;
+			children = (
+				D6F4E1501B049D59001587FD /* CGSingleContentView.h */,
+				D6F4E1511B049D59001587FD /* CGSingleContentView.m */,
+				D6F4E15E1B04A2EE001587FD /* CGSingleBaseContentView.h */,
+				D6F4E15F1B04A2EE001587FD /* CGSingleBaseContentView.m */,
+				D6F4E1521B049D59001587FD /* CGSingleControlView.h */,
+				D6F4E1531B049D59001587FD /* CGSingleControlView.m */,
+				D6F4E1541B049D59001587FD /* CGSingleSliderView.h */,
+				D6F4E1551B049D59001587FD /* CGSingleSliderView.m */,
+				D6F4E1561B049D59001587FD /* CGSomeColorButton.h */,
+				D6F4E1571B049D59001587FD /* CGSomeColorButton.m */,
+			);
+			path = SingleControlView;
+			sourceTree = "<group>";
+		};
+		D6F4E15C1B04A1BD001587FD /* SingleDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D6F4E15D1B04A1DB001587FD /* CGSingleViewDataSource.h */,
+			);
+			path = SingleDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -917,12 +964,17 @@
 				D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */,
 				185C2C231AFCDD1A005FD205 /* CGRadioView.m in Sources */,
 				D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */,
+				D6F4E15B1B049D59001587FD /* CGSomeColorButton.m in Sources */,
 				D6B395E81AF7253500FC87BE /* CustomTextViewController.m in Sources */,
+				D6F4E1591B049D59001587FD /* CGSingleControlView.m in Sources */,
 				D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */,
+				D6F4E1581B049D59001587FD /* CGSingleContentView.m in Sources */,
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
 				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
 				D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */,
 				D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */,
+				D6F4E15A1B049D59001587FD /* CGSingleSliderView.m in Sources */,
+				D6F4E1471B047F28001587FD /* NSObject+NavigationAppearance.m in Sources */,
 				D64B86741AEDF67F0052D250 /* CGTitleTextField.m in Sources */,
 				D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */,
 				185C2C291AFCDF8A005FD205 /* CGCustomSelectButton.m in Sources */,
@@ -943,16 +995,15 @@
 				D6EA123A1AD76F25004F6D87 /* CGPlaceholderLabel.m in Sources */,
 				18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */,
 				D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */,
-				D6F4E1411B0475E6001587FD /* CGSingleControlView.m in Sources */,
 				D6EA12391AD76F25004F6D87 /* CGAttributedPlaceholderLabel.m in Sources */,
 				D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */,
 				D61D918D1AF0B01C00A3AACF /* CATableViewController.m in Sources */,
 				D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */,
 				D6957B9D1AFB6C8F005F4F79 /* AreaEdge.m in Sources */,
 				D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */,
-				D6F4E1431B0475E6001587FD /* CGSomeColorButton.m in Sources */,
 				D6957B9A1AFB64DA005F4F79 /* CGSpringCollectionViewFlowLayout.m in Sources */,
 				D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */,
+				D6F4E1601B04A2EE001587FD /* CGSingleBaseContentView.m in Sources */,
 				185C2C241AFCDD1A005FD205 /* CGScrollView.m in Sources */,
 				18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */,
 				D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */,

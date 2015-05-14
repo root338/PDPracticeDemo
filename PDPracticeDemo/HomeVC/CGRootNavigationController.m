@@ -7,6 +7,7 @@
 //
 
 #import "CGRootNavigationController.h"
+#import "NSObject+NavigationAppearance.h"
 
 @interface CGRootNavigationController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self customNavigationAppearance];
 }
 
 - (void)didReceiveMemoryWarning {
