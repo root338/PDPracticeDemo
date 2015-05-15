@@ -23,13 +23,11 @@
 		18046CDB1AD6BD5F00AD758D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */; };
 		18046CDD1AD6BD6B00AD758D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDC1AD6BD6B00AD758D /* UIKit.framework */; };
 		18046CE11AD6BD7C00AD758D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */; };
-		185C2C231AFCDD1A005FD205 /* CGRadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C2C1E1AFCDD1A005FD205 /* CGRadioView.m */; };
 		185C2C241AFCDD1A005FD205 /* CGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C2C201AFCDD1A005FD205 /* CGScrollView.m */; };
 		185C2C291AFCDF8A005FD205 /* CGCustomSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C2C281AFCDF8A005FD205 /* CGCustomSelectButton.m */; };
 		1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */; };
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
-		18C5EBAF1B04E002009F006A /* CGSingleSubControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBAE1B04E002009F006A /* CGSingleSubControl.m */; };
 		18C5EBB21B04EE11009F006A /* UIControl+CalculateArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */; };
 		18C5EBB51B04EE37009F006A /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB41B04EE37009F006A /* CGSomeColorButton.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
@@ -56,6 +54,10 @@
 		D64B867B1AEDFA4E0052D250 /* CGBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B867A1AEDFA4E0052D250 /* CGBaseLabel.m */; };
 		D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B867D1AEDFA740052D250 /* CGMultiLineLabel.m */; };
 		D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86851AEE1E950052D250 /* SubCustomViewController.m */; };
+		D6699ABC1B0592D50097B3D8 /* 参考点.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6699ABB1B0592D50097B3D8 /* 参考点.txt */; };
+		D6699AC31B05BAF90097B3D8 /* CGRadioBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6699AC21B05BAF90097B3D8 /* CGRadioBaseView.m */; };
+		D6699AC61B05BB270097B3D8 /* CGRadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6699AC51B05BB270097B3D8 /* CGRadioView.m */; };
+		D6699AC91B05C1D90097B3D8 /* CGSingleSubControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D6699AC81B05C1D90097B3D8 /* CGSingleSubControl.m */; };
 		D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907F81AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m */; };
 		D67907FC1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FB1AEDD078009CAC9B /* UIButton+CreateAutoLayout.m */; };
 		D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67907FE1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m */; };
@@ -125,8 +127,6 @@
 		18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18046CDC1AD6BD6B00AD758D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		185C2C1D1AFCDD1A005FD205 /* CGRadioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRadioView.h; sourceTree = "<group>"; };
-		185C2C1E1AFCDD1A005FD205 /* CGRadioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRadioView.m; sourceTree = "<group>"; };
 		185C2C1F1AFCDD1A005FD205 /* CGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGScrollView.h; sourceTree = "<group>"; };
 		185C2C201AFCDD1A005FD205 /* CGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGScrollView.m; sourceTree = "<group>"; };
 		185C2C271AFCDF8A005FD205 /* CGCustomSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCustomSelectButton.h; sourceTree = "<group>"; };
@@ -136,8 +136,6 @@
 		1867B42D1AE92248006C4160 /* AutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewController.h; sourceTree = "<group>"; };
 		1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewController.m; sourceTree = "<group>"; };
 		1867B4361AE92E23006C4160 /* car_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_001.jpg; sourceTree = "<group>"; };
-		18C5EBAD1B04E002009F006A /* CGSingleSubControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSubControl.h; sourceTree = "<group>"; };
-		18C5EBAE1B04E002009F006A /* CGSingleSubControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSubControl.m; sourceTree = "<group>"; };
 		18C5EBB01B04EE11009F006A /* UIControl+CalculateArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CalculateArea.h"; sourceTree = "<group>"; };
 		18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CalculateArea.m"; sourceTree = "<group>"; };
 		18C5EBB31B04EE37009F006A /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
@@ -193,6 +191,13 @@
 		D64B867D1AEDFA740052D250 /* CGMultiLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGMultiLineLabel.m; sourceTree = "<group>"; };
 		D64B86841AEE1E950052D250 /* SubCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCustomViewController.h; sourceTree = "<group>"; };
 		D64B86851AEE1E950052D250 /* SubCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCustomViewController.m; sourceTree = "<group>"; };
+		D6699ABB1B0592D50097B3D8 /* 参考点.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "参考点.txt"; sourceTree = "<group>"; };
+		D6699AC11B05BAF90097B3D8 /* CGRadioBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRadioBaseView.h; sourceTree = "<group>"; };
+		D6699AC21B05BAF90097B3D8 /* CGRadioBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRadioBaseView.m; sourceTree = "<group>"; };
+		D6699AC41B05BB270097B3D8 /* CGRadioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRadioView.h; sourceTree = "<group>"; };
+		D6699AC51B05BB270097B3D8 /* CGRadioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRadioView.m; sourceTree = "<group>"; };
+		D6699AC71B05C1D90097B3D8 /* CGSingleSubControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSingleSubControl.h; sourceTree = "<group>"; };
+		D6699AC81B05C1D90097B3D8 /* CGSingleSubControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSingleSubControl.m; sourceTree = "<group>"; };
 		D67907F61AEDCFD1009CAC9B /* CreateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateView.h; sourceTree = "<group>"; };
 		D67907F71AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CreateAutoLayout.h"; sourceTree = "<group>"; };
 		D67907F81AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CreateAutoLayout.m"; sourceTree = "<group>"; };
@@ -397,10 +402,9 @@
 		185C2C1C1AFCDD1A005FD205 /* CGScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				D6699AC01B05BAF90097B3D8 /* SingleView */,
 				D6F4E15C1B04A1BD001587FD /* SingleDelegate */,
 				D6F4E14F1B049D31001587FD /* SingleControlView */,
-				185C2C1D1AFCDD1A005FD205 /* CGRadioView.h */,
-				185C2C1E1AFCDD1A005FD205 /* CGRadioView.m */,
 				185C2C1F1AFCDD1A005FD205 /* CGScrollView.h */,
 				185C2C201AFCDD1A005FD205 /* CGScrollView.m */,
 				D6F4E13D1B0475E6001587FD /* CGSingleScrollView.h */,
@@ -657,6 +661,27 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		D6699ABA1B0592990097B3D8 /* 参考点 */ = {
+			isa = PBXGroup;
+			children = (
+				D6699ABB1B0592D50097B3D8 /* 参考点.txt */,
+			);
+			path = "参考点";
+			sourceTree = "<group>";
+		};
+		D6699AC01B05BAF90097B3D8 /* SingleView */ = {
+			isa = PBXGroup;
+			children = (
+				D6699AC11B05BAF90097B3D8 /* CGRadioBaseView.h */,
+				D6699AC21B05BAF90097B3D8 /* CGRadioBaseView.m */,
+				D6699AC41B05BB270097B3D8 /* CGRadioView.h */,
+				D6699AC51B05BB270097B3D8 /* CGRadioView.m */,
+				D6699AC71B05C1D90097B3D8 /* CGSingleSubControl.h */,
+				D6699AC81B05C1D90097B3D8 /* CGSingleSubControl.m */,
+			);
+			path = SingleView;
+			sourceTree = "<group>";
+		};
 		D6957B971AFB64DA005F4F79 /* CollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -678,6 +703,7 @@
 		D6EA12121AD76F25004F6D87 /* CGKit */ = {
 			isa = PBXGroup;
 			children = (
+				D6699ABA1B0592990097B3D8 /* 参考点 */,
 				D61D918E1AF0B03500A3AACF /* MacroDefinition */,
 				D63A93881AEF3E050094B68E /* Foundion */,
 				1867B4301AE92421006C4160 /* CreateView */,
@@ -830,8 +856,6 @@
 				D6F4E1531B049D59001587FD /* CGSingleControlView.m */,
 				D6F4E1541B049D59001587FD /* CGSingleSliderView.h */,
 				D6F4E1551B049D59001587FD /* CGSingleSliderView.m */,
-				18C5EBAD1B04E002009F006A /* CGSingleSubControl.h */,
-				18C5EBAE1B04E002009F006A /* CGSingleSubControl.m */,
 			);
 			path = SingleControlView;
 			sourceTree = "<group>";
@@ -932,6 +956,7 @@
 				1867B4371AE92E23006C4160 /* car_001.jpg in Resources */,
 				18046CCE1AD6B82000AD758D /* Info.plist in Resources */,
 				18046C9D1AD6B55500AD758D /* Main.storyboard in Resources */,
+				D6699ABC1B0592D50097B3D8 /* 参考点.txt in Resources */,
 				18046CA21AD6B55500AD758D /* LaunchScreen.xib in Resources */,
 				18046C9F1AD6B55500AD758D /* Images.xcassets in Resources */,
 			);
@@ -972,14 +997,12 @@
 				18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */,
 				D62124EC1AF8BA8B008CFA72 /* DynamicsViewController.m in Sources */,
 				D67907F91AEDCFD1009CAC9B /* UILabel+CreateAutoLayout.m in Sources */,
-				185C2C231AFCDD1A005FD205 /* CGRadioView.m in Sources */,
 				D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */,
 				D6B395E81AF7253500FC87BE /* CustomTextViewController.m in Sources */,
 				D6F4E1591B049D59001587FD /* CGSingleControlView.m in Sources */,
 				D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */,
 				D6F4E1581B049D59001587FD /* CGSingleContentView.m in Sources */,
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
-				18C5EBAF1B04E002009F006A /* CGSingleSubControl.m in Sources */,
 				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
 				D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */,
 				D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */,
@@ -990,8 +1013,10 @@
 				185C2C291AFCDF8A005FD205 /* CGCustomSelectButton.m in Sources */,
 				18046CC71AD6B81000AD758D /* CGRootViewController.m in Sources */,
 				D64B867B1AEDFA4E0052D250 /* CGBaseLabel.m in Sources */,
+				D6699AC31B05BAF90097B3D8 /* CGRadioBaseView.m in Sources */,
 				D64B86781AEDF81D0052D250 /* CGBaseTextField.m in Sources */,
 				18046CD61AD6B8F500AD758D /* HomeTableViewCell.m in Sources */,
+				D6699AC91B05C1D90097B3D8 /* CGSingleSubControl.m in Sources */,
 				D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */,
 				D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */,
 				D6EA12381AD76F25004F6D87 /* CGZoomImageView.m in Sources */,
@@ -999,6 +1024,7 @@
 				D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */,
 				D62124EF1AF8C08A008CFA72 /* DynamicsViewController+AddView.m in Sources */,
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
+				D6699AC61B05BB270097B3D8 /* CGRadioView.m in Sources */,
 				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
 				D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */,
 				18C5EBB21B04EE11009F006A /* UIControl+CalculateArea.m in Sources */,

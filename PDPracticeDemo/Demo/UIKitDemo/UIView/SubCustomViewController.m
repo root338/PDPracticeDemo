@@ -14,8 +14,9 @@
 #import "CGSingleControlView.h"
 #import "CGSingleContentView.h"
 #import "CGSingleSliderView.h"
+#import "CGRadioBaseView.h"
 
-@interface SubCustomViewController ()<CGSingleScrollViewDataSource>
+@interface SubCustomViewController ()<CGSingleViewDataSource>
 {
     BOOL didSetupConstraints;
     UIScrollView *_scrollView;
@@ -85,20 +86,18 @@
                     ];
     
     _tabScrollView = [[CGSingleScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 40)];
-//    _tabScrollView.itemWidth = 50;
+//    _tabScrollView.itemWidth = 100;
     _tabScrollView.itemSpace = 8;
     [self.view addSubview:_tabScrollView];
     
-    _tabScrollView.delegate = self;
+    _tabScrollView.singleView.dataSource = self;
     
     _controlView = [CGSingleControlView newAutoLayoutView];
     
-    _controlView.contentView.normalTitleColor = [UIColor blackColor];
-    _controlView.contentView.selectedTitleColor = [UIColor redColor];
-    _controlView.sliderView.sliderWidthType = CGSliderWidthTypeEqualTitleWidth;
-    _controlView.sliderView.backgroundColor = _controlView.contentView.selectedTitleColor;
+//    _controlView.sliderView.backgroundColor = _controlView.contentView.selectedTitleColor;
     
     _controlView.titles = @[@"标题", @"控件", @"完美的", @"随处逛逛"];
+    
     [self.view addSubview:_controlView];
 }
 
@@ -133,33 +132,26 @@
 }
 
 #pragma mark - CGTabScrollViewDataSource
-- (NSInteger)tabScrollViewNumberView:(CGSingleScrollView *)tabScrollView
+- (NSInteger)singleView:(CGRadioView *)singleView numberOfSections:(NSInteger)index
 {
     return _dataSource.count;
 }
 
-- (CGFloat)tabScrollView:(CGSingleScrollView *)tabScrollView widthForIndex:(NSInteger)index
+- (CGFloat)singleView:(CGRadioView *)tabScrollView widthForIndexPath:(NSIndexPath *)indexPath
 {
     NSDictionary *dic = @{
-                          NSFontAttributeName : [UIFont systemFontOfSize:15]
+                          NSFontAttributeName : [UIFont systemFontOfSize:16]
                           };
-    NSString *title = _dataSource[index];
+    NSString *title = _dataSource[indexPath.row];
     CGSize fontSize = [title sizeWithAttributes:dic];
     
     return fontSize.width + 10;
 }
 
-- (UIView *)tabScrollView:(CGSingleScrollView *)tabScrollView numberViewAtIndex:(NSInteger)index
+- (NSString *)singleView:(CGRadioView *)singleView controlTitleAtIndex:(NSIndexPath *)indexPath
 {
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    [button setTitle:_dataSource[index] forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
-    [button addTarget:self action:@selector(handleButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
-    return button;
+    return _dataSource[indexPath.row];
 }
 
-- (void)handleButtonEvent:(id)sender
-{
-    [sender setSelected:YES];
-}
+
 @end
