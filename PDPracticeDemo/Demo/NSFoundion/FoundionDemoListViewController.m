@@ -7,6 +7,7 @@
 //
 
 #import "FoundionDemoListViewController.h"
+#import "UseGrandObject.h"
 
 @interface FoundionDemoListViewController ()
 
@@ -22,6 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [UseGrandObject new];
 }
 
 - (void)didReceiveMemoryWarning {

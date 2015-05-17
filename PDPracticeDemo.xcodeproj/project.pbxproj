@@ -15,7 +15,6 @@
 		18046CC71AD6B81000AD758D /* CGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CC31AD6B81000AD758D /* CGRootViewController.m */; };
 		18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CC51AD6B81000AD758D /* CGTableViewController.m */; };
 		18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CCA1AD6B82000AD758D /* AppDelegate.m */; };
-		18046CCE1AD6B82000AD758D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18046CCB1AD6B82000AD758D /* Info.plist */; };
 		18046CCF1AD6B82000AD758D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CCC1AD6B82000AD758D /* main.m */; };
 		18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CD11AD6B8AA00AD758D /* CGTableViewDataSource.m */; };
 		18046CD61AD6B8F500AD758D /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18046CD51AD6B8F500AD758D /* HomeTableViewCell.m */; };
@@ -28,6 +27,7 @@
 		1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */; };
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
+		186F3D711B0887E50053F3C9 /* UseGrandObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F3D701B0887E50053F3C9 /* UseGrandObject.m */; };
 		18C5EBB21B04EE11009F006A /* UIControl+CalculateArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */; };
 		18C5EBB51B04EE37009F006A /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB41B04EE37009F006A /* CGSomeColorButton.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
@@ -75,7 +75,6 @@
 		D6EA123C1AD76F25004F6D87 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12241AD76F25004F6D87 /* ALView+PureLayout.m */; };
 		D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12261AD76F25004F6D87 /* NSArray+PureLayout.m */; };
 		D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12281AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m */; };
-		D6EA123F1AD76F25004F6D87 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6EA122C1AD76F25004F6D87 /* README.md */; };
 		D6EA12401AD76F25004F6D87 /* NSObject+AreaCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA122F1AD76F25004F6D87 /* NSObject+AreaCalculate.m */; };
 		D6EA12411AD76F25004F6D87 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12311AD76F25004F6D87 /* UIColor+HexColor.m */; };
 		D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12331AD76F25004F6D87 /* UIView+AddLayoutConstraint.m */; };
@@ -136,6 +135,8 @@
 		1867B42D1AE92248006C4160 /* AutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewController.h; sourceTree = "<group>"; };
 		1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewController.m; sourceTree = "<group>"; };
 		1867B4361AE92E23006C4160 /* car_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_001.jpg; sourceTree = "<group>"; };
+		186F3D6F1B0887E50053F3C9 /* UseGrandObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseGrandObject.h; sourceTree = "<group>"; };
+		186F3D701B0887E50053F3C9 /* UseGrandObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseGrandObject.m; sourceTree = "<group>"; };
 		18C5EBB01B04EE11009F006A /* UIControl+CalculateArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CalculateArea.h"; sourceTree = "<group>"; };
 		18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CalculateArea.m"; sourceTree = "<group>"; };
 		18C5EBB31B04EE37009F006A /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
@@ -236,7 +237,6 @@
 		D6EA12291AD76F25004F6D87 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
 		D6EA122A1AD76F25004F6D87 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
 		D6EA122B1AD76F25004F6D87 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
-		D6EA122C1AD76F25004F6D87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6EA122E1AD76F25004F6D87 /* NSObject+AreaCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AreaCalculate.h"; sourceTree = "<group>"; };
 		D6EA122F1AD76F25004F6D87 /* NSObject+AreaCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AreaCalculate.m"; sourceTree = "<group>"; };
 		D6EA12301AD76F25004F6D87 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
@@ -479,6 +479,15 @@
 			path = "Supporting Files/images";
 			sourceTree = "<group>";
 		};
+		186F3D6E1B0887BD0053F3C9 /* 宏的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				186F3D6F1B0887E50053F3C9 /* UseGrandObject.h */,
+				186F3D701B0887E50053F3C9 /* UseGrandObject.m */,
+			);
+			path = "宏的使用";
+			sourceTree = "<group>";
+		};
 		18D415A51ADEA19C003F4423 /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -581,6 +590,7 @@
 		D63A93771AEF2A6A0094B68E /* NSFoundion */ = {
 			isa = PBXGroup;
 			children = (
+				186F3D6E1B0887BD0053F3C9 /* 宏的使用 */,
 				D6189DDC1AF9E404001C3E21 /* NSSession */,
 				D63A93781AEF2A9B0094B68E /* FoundionDemoListViewController.h */,
 				D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */,
@@ -710,7 +720,6 @@
 				18D415A51ADEA19C003F4423 /* Header */,
 				D6EA12131AD76F25004F6D87 /* CGView */,
 				D6EA12221AD76F25004F6D87 /* PureLayout */,
-				D6EA122C1AD76F25004F6D87 /* README.md */,
 				D6EA122D1AD76F25004F6D87 /* UIKit */,
 			);
 			path = CGKit;
@@ -912,7 +921,7 @@
 		18046C861AD6B55500AD758D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					18046C8D1AD6B55500AD758D = {
@@ -954,7 +963,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1867B4371AE92E23006C4160 /* car_001.jpg in Resources */,
-				18046CCE1AD6B82000AD758D /* Info.plist in Resources */,
 				18046C9D1AD6B55500AD758D /* Main.storyboard in Resources */,
 				D6699ABC1B0592D50097B3D8 /* 参考点.txt in Resources */,
 				18046CA21AD6B55500AD758D /* LaunchScreen.xib in Resources */,
@@ -987,6 +995,7 @@
 				D6EA123E1AD76F25004F6D87 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */,
 				D60114BC1AF1CEC9000F9B84 /* CustomSegueViewController.m in Sources */,
+				186F3D711B0887E50053F3C9 /* UseGrandObject.m in Sources */,
 				D6F4E1421B0475E6001587FD /* CGSingleScrollView.m in Sources */,
 				1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */,
 				D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */,
@@ -1003,7 +1012,6 @@
 				D67907FF1AEDD142009CAC9B /* UIImageView+CreateAutoLayout.m in Sources */,
 				D6F4E1581B049D59001587FD /* CGSingleContentView.m in Sources */,
 				D6EA123D1AD76F25004F6D87 /* NSArray+PureLayout.m in Sources */,
-				D6EA123F1AD76F25004F6D87 /* README.md in Sources */,
 				D64B867E1AEDFA740052D250 /* CGMultiLineLabel.m in Sources */,
 				D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */,
 				D6F4E15A1B049D59001587FD /* CGSingleSliderView.m in Sources */,
@@ -1121,7 +1129,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1156,7 +1164,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1172,6 +1180,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PDPracticeDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1188,6 +1197,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PDPracticeDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

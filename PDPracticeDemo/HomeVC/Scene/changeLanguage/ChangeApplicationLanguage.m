@@ -8,7 +8,6 @@
 
 #import "ChangeApplicationLanguage.h"
 
-
 //NSUserDefaults 对象
 #define UserDefaults [NSUserDefaults standardUserDefaults]
 @implementation ChangeApplicationLanguage
