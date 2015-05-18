@@ -20,7 +20,7 @@
     self.title = @"首 页";
     self.dataSource = [NSMutableArray arrayWithObjects:
                        [HomeCellModel createTitle:@"CoreAnimationDemo" string:@"CATableViewController" loadType:NO],
-                       [HomeCellModel createTitle:@"UIKit Demo hello world" string:@"UIKitDemoViewController" loadType:NO],
+                       [HomeCellModel createTitle:@"UIKit Demo" string:@"UIKitDemoViewController" loadType:NO],
                        [HomeCellModel createVCTitle:@"Foundion的一些功能使用" className:@"FoundionDemoListViewController"],
                        nil];
     [super viewDidLoad];

@@ -16,4 +16,8 @@
  */
 @property (assign, nonatomic) BOOL isRemoveTapHideNavgation;
 
+/**
+ 第一次进入页面时隐藏导航栏
+ */
+@property (readwrite, nonatomic) BOOL isFirstEnterHideNavigation;
 @end

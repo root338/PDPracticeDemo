@@ -26,6 +26,11 @@
     }
 }
 
+- (void)setIsFirstEnterHideNavigation:(BOOL)isFirstEnterHideNavigation
+{
+    [self.navigationController setNavigationBarHidden:isFirstEnterHideNavigation];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

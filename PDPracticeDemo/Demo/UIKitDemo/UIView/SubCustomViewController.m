@@ -16,7 +16,7 @@
 #import "CGSingleSliderView.h"
 #import "CGRadioBaseView.h"
 
-@interface SubCustomViewController ()<CGSingleViewDataSource>
+@interface SubCustomViewController ()<CGSingleViewDataSource, CGSingleControlViewDelegate, CGRadioViewDelegate>
 {
     BOOL didSetupConstraints;
     UIScrollView *_scrollView;
@@ -84,6 +84,11 @@
                     @"逛逛",
                     @"随缘",
                     ];
+//    NSMutableArray *arr = [NSMutableArray new];
+//    for (NSInteger i = 0; i < 100; i++) {
+//        [arr addObject:[@(i) stringValue]];
+//    }
+//    _dataSource = arr;
     
     _tabScrollView = [[CGSingleScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 40)];
 //    _tabScrollView.itemWidth = 100;
@@ -91,12 +96,14 @@
     [self.view addSubview:_tabScrollView];
     
     _tabScrollView.singleView.dataSource = self;
+    _tabScrollView.singleView.delegate = self;
     
     _controlView = [CGSingleControlView newAutoLayoutView];
     
 //    _controlView.sliderView.backgroundColor = _controlView.contentView.selectedTitleColor;
     
     _controlView.titles = @[@"标题", @"控件", @"完美的", @"随处逛逛"];
+    _controlView.delegate = self;
     
     [self.view addSubview:_controlView];
 }
@@ -153,5 +160,17 @@
     return _dataSource[indexPath.row];
 }
 
+#pragma mark - CGSingleControlViewDelegate
+- (void)singleControl:(CGSingleControlView *)singleControl selectedAtIndex:(NSInteger)selectedIndex
+{
+    //选择回调
+//    NSLog(@"%li",(long)selectedIndex);
+}
 
+#pragma mark - CGRadioViewDelegate
+- (void)radioView:(CGRadioView *)radioView selectedAtIndex:(NSInteger)selectedIndex
+{
+    //选择回调
+//    NSLog(@"%li",(long)selectedIndex);
+}
 @end
