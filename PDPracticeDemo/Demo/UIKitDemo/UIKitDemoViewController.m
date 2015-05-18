@@ -23,7 +23,8 @@
                                                        [HomeCellModel createTitle:@"自定义Label的使用示例" string:@"LabelViewController" loadType:NO],
                                                        [HomeCellModel createTitle:@"自定义View的使用示例" string:@"SubCustomViewController" loadType:NO],
                                                        [HomeCellModel createVCTitle:@"UIKit Dynamic" className:@"DynamicsViewController"],
-                                                       [HomeCellModel createVCTitle:@"弹簧式列表" className:@"TestCollectionViewController"]
+                                                       [HomeCellModel createVCTitle:@"弹簧式列表" className:@"TestCollectionViewController"],
+                                                       [HomeCellModel createVCTitle:@"循环视图" className:@"CycleScrollViewController"],
                                                        ]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
