@@ -40,6 +40,7 @@
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
 		186F3D711B0887E50053F3C9 /* UseGrandObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F3D701B0887E50053F3C9 /* UseGrandObject.m */; };
+		186F3D771B08D5260053F3C9 /* 五角星.png in Resources */ = {isa = PBXBuildFile; fileRef = 186F3D761B08D5260053F3C9 /* 五角星.png */; };
 		18C5EBB21B04EE11009F006A /* UIControl+CalculateArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */; };
 		18C5EBB51B04EE37009F006A /* CGSomeColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5EBB41B04EE37009F006A /* CGSomeColorButton.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
@@ -154,6 +155,7 @@
 		1867B4361AE92E23006C4160 /* car_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car_001.jpg; sourceTree = "<group>"; };
 		186F3D6F1B0887E50053F3C9 /* UseGrandObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseGrandObject.h; sourceTree = "<group>"; };
 		186F3D701B0887E50053F3C9 /* UseGrandObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseGrandObject.m; sourceTree = "<group>"; };
+		186F3D761B08D5260053F3C9 /* 五角星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "五角星.png"; sourceTree = "<group>"; };
 		18C5EBB01B04EE11009F006A /* UIControl+CalculateArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CalculateArea.h"; sourceTree = "<group>"; };
 		18C5EBB11B04EE11009F006A /* UIControl+CalculateArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CalculateArea.m"; sourceTree = "<group>"; };
 		18C5EBB31B04EE37009F006A /* CGSomeColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSomeColorButton.h; sourceTree = "<group>"; };
@@ -567,6 +569,7 @@
 			children = (
 				D61D91831AF0B01C00A3AACF /* VisualEffectViewController.h */,
 				D61D91841AF0B01C00A3AACF /* VisualEffectViewController.m */,
+				186F3D761B08D5260053F3C9 /* 五角星.png */,
 			);
 			path = "视觉效果";
 			sourceTree = "<group>";
@@ -1063,6 +1066,7 @@
 				1867B4371AE92E23006C4160 /* car_001.jpg in Resources */,
 				18046C9D1AD6B55500AD758D /* Main.storyboard in Resources */,
 				D6699ABC1B0592D50097B3D8 /* 参考点.txt in Resources */,
+				186F3D771B08D5260053F3C9 /* 五角星.png in Resources */,
 				18046CA21AD6B55500AD758D /* LaunchScreen.xib in Resources */,
 				18046C9F1AD6B55500AD758D /* Images.xcassets in Resources */,
 			);
@@ -1304,10 +1308,12 @@
 				INFOPLIST_FILE = "$(SRCROOT)/PDPracticeDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_CFLAGS = "";
+				OTHER_CFLAGS = "-Wall";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
 		};
@@ -1322,10 +1328,12 @@
 				INFOPLIST_FILE = "$(SRCROOT)/PDPracticeDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_CFLAGS = "";
+				OTHER_CFLAGS = "-Wall";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
 		};
