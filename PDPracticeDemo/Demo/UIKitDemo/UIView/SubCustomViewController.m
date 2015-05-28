@@ -95,15 +95,15 @@
     _tabScrollView.itemSpace = 8;
     [self.view addSubview:_tabScrollView];
     
-    _tabScrollView.singleView.dataSource = self;
-    _tabScrollView.singleView.delegate = self;
+    _tabScrollView.dataSource = self;
+    _tabScrollView.delegate = self;
     
     _controlView = [CGSingleControlView newAutoLayoutView];
     
 //    _controlView.sliderView.backgroundColor = _controlView.contentView.selectedTitleColor;
     
     _controlView.titles = @[@"标题", @"控件", @"完美的", @"随处逛逛"];
-    _controlView.delegate = self;
+    _controlView.dataSource = self;
     
     [self.view addSubview:_controlView];
 }
@@ -155,9 +155,17 @@
     return fontSize.width + 10;
 }
 
-- (NSString *)singleView:(CGRadioView *)singleView controlTitleAtIndex:(NSIndexPath *)indexPath
+//- (NSString *)singleView:(CGRadioView *)singleView controlTitleAtIndex:(NSIndexPath *)indexPath
+//{
+//    return _dataSource[indexPath.row];
+//}
+
+- (UIView *)singleView:(CGRadioView *)singleView controlAtIndex:(NSIndexPath *)indexPath
 {
-    return _dataSource[indexPath.row];
+    UILabel *label = [[UILabel alloc] init];
+    label.text = _dataSource[indexPath.row];
+    
+    return label;
 }
 
 #pragma mark - CGSingleControlViewDelegate
