@@ -25,6 +25,7 @@
                                                        [HomeCellModel createVCTitle:@"UIKit Dynamic" className:@"DynamicsViewController"],
                                                        [HomeCellModel createVCTitle:@"弹簧式列表" className:@"TestCollectionViewController"],
                                                        [HomeCellModel createVCTitle:@"循环视图" className:@"CycleScrollViewController"],
+                                                       [HomeCellModel createVCTitle:@"test View" className:@"CustomTextViewController"],
                                                        ]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.

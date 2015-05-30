@@ -9,6 +9,8 @@
 #import "CustomTextViewController.h"
 //#import "CGPlaceholderTextView.h"
 #import "PureLayout.h"
+#import "UIButton+GCLayout.h"
+#import "RecordingCircleOverlayView.h"
 
 @interface CustomTextViewController ()<UITextViewDelegate>
 {
@@ -32,6 +34,17 @@
     
     [self.view addSubview:_placeholderTextView];
     [self updateViewConstraints];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button setTitle:@"button title" forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"pengyouquan"] forState:UIControlStateNormal];
+    [button sizeToFit];
+    button.center = self.view.center;
+    [button setTitle:@"button title button title" forState:UIControlStateNormal];
+    [button centerImageAndButton:10 imageOnTop:YES];
+    [self.view addSubview:button];
+    
+    [self.view addSubview:[[RecordingCircleOverlayView alloc] initWithFrame:self.view.bounds]];
 }
 
 - (void)didReceiveMemoryWarning {

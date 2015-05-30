@@ -6,6 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D60976331B0F12D50009C80F /* AutoAddVersionNumber */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D60976361B0F12D60009C80F /* Build configuration list for PBXAggregateTarget "AutoAddVersionNumber" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AutoAddVersionNumber;
+			productName = AutoAddVersionNumber;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		18046C9D1AD6B55500AD758D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18046C9B1AD6B55500AD758D /* Main.storyboard */; };
 		18046C9F1AD6B55500AD758D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18046C9E1AD6B55500AD758D /* Images.xcassets */; };
@@ -35,6 +48,8 @@
 		D60114BC1AF1CEC9000F9B84 /* CustomSegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */; };
 		D6189DDF1AF9EBA0001C3E21 /* TestSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6189DDE1AF9EBA0001C3E21 /* TestSessionViewController.m */; };
 		D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6189DE21AF9F736001C3E21 /* TestCollectionViewController.m */; };
+		D61A5E281B12CF9A007ACD2C /* UIButton+GCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D61A5E271B12CF9A007ACD2C /* UIButton+GCLayout.m */; };
+		D61A5E2B1B130393007ACD2C /* RecordingCircleOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61A5E2A1B130393007ACD2C /* RecordingCircleOverlayView.m */; };
 		D61D918A1AF0B01C00A3AACF /* BoardingMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */; };
 		D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91841AF0B01C00A3AACF /* VisualEffectViewController.m */; };
 		D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D91871AF0B01C00A3AACF /* ProprietaryViewController.m */; };
@@ -157,6 +172,10 @@
 		D6189DDE1AF9EBA0001C3E21 /* TestSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSessionViewController.m; sourceTree = "<group>"; };
 		D6189DE11AF9F736001C3E21 /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
 		D6189DE21AF9F736001C3E21 /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
+		D61A5E261B12CF9A007ACD2C /* UIButton+GCLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GCLayout.h"; sourceTree = "<group>"; };
+		D61A5E271B12CF9A007ACD2C /* UIButton+GCLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GCLayout.m"; sourceTree = "<group>"; };
+		D61A5E291B130393007ACD2C /* RecordingCircleOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingCircleOverlayView.h; sourceTree = "<group>"; };
+		D61A5E2A1B130393007ACD2C /* RecordingCircleOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingCircleOverlayView.m; sourceTree = "<group>"; };
 		D61D91801AF0B01C00A3AACF /* BoardingMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingMapViewController.h; sourceTree = "<group>"; };
 		D61D91811AF0B01C00A3AACF /* BoardingMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingMapViewController.m; sourceTree = "<group>"; };
 		D61D91831AF0B01C00A3AACF /* VisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectViewController.h; sourceTree = "<group>"; };
@@ -420,6 +439,7 @@
 		185C2C261AFCDF69005FD205 /* CGButton */ = {
 			isa = PBXGroup;
 			children = (
+				D61A5E251B12CF73007ACD2C /* Category */,
 				185C2C271AFCDF8A005FD205 /* CGCustomSelectButton.h */,
 				185C2C281AFCDF8A005FD205 /* CGCustomSelectButton.m */,
 				18C5EBB31B04EE37009F006A /* CGSomeColorButton.h */,
@@ -527,6 +547,15 @@
 				D6957B971AFB64DA005F4F79 /* CollectionViewLayout */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		D61A5E251B12CF73007ACD2C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D61A5E261B12CF9A007ACD2C /* UIButton+GCLayout.h */,
+				D61A5E271B12CF9A007ACD2C /* UIButton+GCLayout.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		D61D917F1AF0B01C00A3AACF /* 寄宿图 */ = {
@@ -799,6 +828,8 @@
 			children = (
 				D6B395E61AF7253500FC87BE /* CustomTextViewController.h */,
 				D6B395E71AF7253500FC87BE /* CustomTextViewController.m */,
+				D61A5E291B130393007ACD2C /* RecordingCircleOverlayView.h */,
+				D61A5E2A1B130393007ACD2C /* RecordingCircleOverlayView.m */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -957,6 +988,7 @@
 				18046C8A1AD6B55500AD758D /* Sources */,
 				18046C8B1AD6B55500AD758D /* Frameworks */,
 				18046C8C1AD6B55500AD758D /* Resources */,
+				D60976391B0F132B0009C80F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1006,6 +1038,9 @@
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 18046C8D1AD6B55500AD758D;
 					};
+					D60976331B0F12D50009C80F = {
+						CreatedOnToolsVersion = 6.3;
+					};
 				};
 			};
 			buildConfigurationList = 18046C891AD6B55500AD758D /* Build configuration list for PBXProject "PDPracticeDemo" */;
@@ -1023,6 +1058,7 @@
 			targets = (
 				18046C8D1AD6B55500AD758D /* PDPracticeDemo */,
 				18046CA61AD6B55500AD758D /* PDPracticeDemoTests */,
+				D60976331B0F12D50009C80F /* AutoAddVersionNumber */,
 			);
 		};
 /* End PBXProject section */
@@ -1050,6 +1086,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D60976391B0F132B0009C80F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n##自动添加 build 次数\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n\n#########\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18046C8A1AD6B55500AD758D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1074,6 +1126,8 @@
 				D68163C01B09973F0080D440 /* CGSingleScrollView.m in Sources */,
 				D68163C11B09973F0080D440 /* CGSingleBaseContentView.m in Sources */,
 				D6EA12401AD76F25004F6D87 /* NSObject+AreaCalculate.m in Sources */,
+				D61A5E2B1B130393007ACD2C /* RecordingCircleOverlayView.m in Sources */,
+				D61A5E281B12CF9A007ACD2C /* UIButton+GCLayout.m in Sources */,
 				D64B86711AEDF5ED0052D250 /* CGTitleBaseView.m in Sources */,
 				D64B866E1AEDE7F60052D250 /* CGBaseAutoLayoutView.m in Sources */,
 				18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */,
@@ -1252,6 +1306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1322,6 +1377,20 @@
 			};
 			name = Release;
 		};
+		D60976341B0F12D60009C80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D60976351B0F12D60009C80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1348,6 +1417,15 @@
 			buildConfigurations = (
 				18046CB51AD6B55500AD758D /* Debug */,
 				18046CB61AD6B55500AD758D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60976361B0F12D60009C80F /* Build configuration list for PBXAggregateTarget "AutoAddVersionNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60976341B0F12D60009C80F /* Debug */,
+				D60976351B0F12D60009C80F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
