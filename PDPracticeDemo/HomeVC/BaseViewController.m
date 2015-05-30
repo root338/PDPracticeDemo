@@ -16,6 +16,8 @@
 
 @implementation BaseViewController
 
+@dynamic isFirstEnterHideNavigation;
+
 - (void)viewDidLoad {
     
     self.view.backgroundColor = [UIColor whiteColor];
