@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AutoAddVersionNumber.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>PDPracticeDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>18046CA61AD6B55500AD758D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D60976331B0F12D50009C80F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
