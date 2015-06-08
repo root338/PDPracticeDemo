@@ -59,6 +59,8 @@
 		D63A937A1AEF2A9B0094B68E /* FoundionDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93791AEF2A9B0094B68E /* FoundionDemoListViewController.m */; };
 		D63A93811AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A93801AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m */; };
 		D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A938C1AEF3E050094B68E /* EXTScope.m */; };
+		D646B1D01B1EA1050022288F /* ServiceTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D646B1CF1B1EA1050022288F /* ServiceTitleButton.m */; };
+		D646B1D61B1EA1E70022288F /* CGBaseControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D646B1D51B1EA1E70022288F /* CGBaseControl.m */; };
 		D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86611AEDD7E00052D250 /* LabelViewController.m */; };
 		D64B86651AEDD83A0052D250 /* UITextField+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86641AEDD83A0052D250 /* UITextField+CreateAutoLayout.m */; };
 		D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B86671AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m */; };
@@ -197,6 +199,11 @@
 		D63A938B1AEF3E050094B68E /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
 		D63A938C1AEF3E050094B68E /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
 		D63A938D1AEF3E050094B68E /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		D646B1CE1B1EA1050022288F /* ServiceTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTitleButton.h; sourceTree = "<group>"; };
+		D646B1CF1B1EA1050022288F /* ServiceTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTitleButton.m; sourceTree = "<group>"; };
+		D646B1D41B1EA1E70022288F /* CGBaseControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseControl.h; sourceTree = "<group>"; };
+		D646B1D51B1EA1E70022288F /* CGBaseControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseControl.m; sourceTree = "<group>"; };
+		D646B1D71B1EA27F0022288F /* CGRadioViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRadioViewDelegate.h; sourceTree = "<group>"; };
 		D64B86601AEDD7E00052D250 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
 		D64B86611AEDD7E00052D250 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
 		D64B86631AEDD83A0052D250 /* UITextField+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CreateAutoLayout.h"; sourceTree = "<group>"; };
@@ -665,6 +672,15 @@
 			path = extobjc;
 			sourceTree = "<group>";
 		};
+		D646B1CD1B1EA1050022288F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D646B1CE1B1EA1050022288F /* ServiceTitleButton.h */,
+				D646B1CF1B1EA1050022288F /* ServiceTitleButton.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		D64B865F1AEDD7CB0052D250 /* Label */ = {
 			isa = PBXGroup;
 			children = (
@@ -729,6 +745,7 @@
 		D68163AA1B09973F0080D440 /* SingleViews */ = {
 			isa = PBXGroup;
 			children = (
+				D646B1CD1B1EA1050022288F /* CustomViews */,
 				D68163AB1B09973F0080D440 /* CGSingleScrollView.h */,
 				D68163AC1B09973F0080D440 /* CGSingleScrollView.m */,
 				D68163AD1B09973F0080D440 /* SingleControlView */,
@@ -757,6 +774,7 @@
 			isa = PBXGroup;
 			children = (
 				D68163B71B09973F0080D440 /* CGSingleViewDataSource.h */,
+				D646B1D71B1EA27F0022288F /* CGRadioViewDelegate.h */,
 			);
 			path = SingleDelegate;
 			sourceTree = "<group>";
@@ -764,6 +782,8 @@
 		D68163B81B09973F0080D440 /* SingleView */ = {
 			isa = PBXGroup;
 			children = (
+				D646B1D41B1EA1E70022288F /* CGBaseControl.h */,
+				D646B1D51B1EA1E70022288F /* CGBaseControl.m */,
 				D68163B91B09973F0080D440 /* CGRadioBaseView.h */,
 				D68163BA1B09973F0080D440 /* CGRadioBaseView.m */,
 				D68163BB1B09973F0080D440 /* CGRadioView.h */,
@@ -1161,6 +1181,7 @@
 				D63A938E1AEF3E060094B68E /* EXTScope.m in Sources */,
 				D62124EF1AF8C08A008CFA72 /* DynamicsViewController+AddView.m in Sources */,
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
+				D646B1D61B1EA1E70022288F /* CGBaseControl.m in Sources */,
 				D6EA123B1AD76F25004F6D87 /* CGTitleLabel.m in Sources */,
 				D64B86861AEE1E950052D250 /* SubCustomViewController.m in Sources */,
 				18C5EBB21B04EE11009F006A /* UIControl+CalculateArea.m in Sources */,
@@ -1177,6 +1198,7 @@
 				D6957B9D1AFB6C8F005F4F79 /* AreaEdge.m in Sources */,
 				D64B86681AEDD94D0052D250 /* UIView+CreateSubAutoLayout.m in Sources */,
 				D6957B9A1AFB64DA005F4F79 /* CGSpringCollectionViewFlowLayout.m in Sources */,
+				D646B1D01B1EA1050022288F /* ServiceTitleButton.m in Sources */,
 				D6EA12421AD76F25004F6D87 /* UIView+AddLayoutConstraint.m in Sources */,
 				18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */,
 				D68163CB1B09985B0080D440 /* CGCycleScrollView.m in Sources */,
