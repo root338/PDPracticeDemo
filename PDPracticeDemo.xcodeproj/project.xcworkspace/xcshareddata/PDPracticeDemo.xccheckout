@@ -12,8 +12,14 @@
 	<dict>
 		<key>30F52A54B6C6A6DCCAD35E39A4588A8A7E5461E7</key>
 		<string>github.com:root338/PDPracticeDemo.git</string>
+		<key>65372C6D16F6650A022795EB251065518E1AF213</key>
+		<string>github.com:root338/CG_CGFoundation.git</string>
+		<key>8839BA38A1B85EA5B0210495287798BEBC7C6B71</key>
+		<string>github.com:root338/CG_.git</string>
 		<key>D7F1CFB89EA432AE9A74347D4D3B4C9975A906A9</key>
 		<string>github.com:root338/CGKit.git</string>
+		<key>E55FB98FA105BCDEDC7F784C148DCA7DD011DF3B</key>
+		<string>github.com:root338/CG_CGView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PDPracticeDemo.xcodeproj</string>
@@ -21,8 +27,14 @@
 	<dict>
 		<key>30F52A54B6C6A6DCCAD35E39A4588A8A7E5461E7</key>
 		<string>../..</string>
+		<key>65372C6D16F6650A022795EB251065518E1AF213</key>
+		<string>../../PDPracticeDemo/CG_/CG_CGFoundation/</string>
+		<key>8839BA38A1B85EA5B0210495287798BEBC7C6B71</key>
+		<string>../../PDPracticeDemo/CG_/</string>
 		<key>D7F1CFB89EA432AE9A74347D4D3B4C9975A906A9</key>
 		<string>../..PDPracticeDemo/CGKit</string>
+		<key>E55FB98FA105BCDEDC7F784C148DCA7DD011DF3B</key>
+		<string>../../PDPracticeDemo/CG_/CG_CGView/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:root338/PDPracticeDemo.git</string>
@@ -32,6 +44,30 @@
 	<string>30F52A54B6C6A6DCCAD35E39A4588A8A7E5461E7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8839BA38A1B85EA5B0210495287798BEBC7C6B71</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CG_</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65372C6D16F6650A022795EB251065518E1AF213</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CG_CGFoundation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E55FB98FA105BCDEDC7F784C148DCA7DD011DF3B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CG_CGView</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
