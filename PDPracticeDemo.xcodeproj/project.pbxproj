@@ -36,6 +36,8 @@
 		18046CDD1AD6BD6B00AD758D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CDC1AD6BD6B00AD758D /* UIKit.framework */; };
 		18046CE11AD6BD7C00AD758D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */; };
 		182808671B0A39E400ADBDB0 /* CGPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182808661B0A39E400ADBDB0 /* CGPageContentView.m */; };
+		1853EB621B21F94E00E3FE01 /* CGBaseControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853EB611B21F94E00E3FE01 /* CGBaseControl.m */; };
+		1853EB661B21F95A00E3FE01 /* ServiceTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853EB651B21F95A00E3FE01 /* ServiceTitleButton.m */; };
 		185C2C291AFCDF8A005FD205 /* CGCustomSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C2C281AFCDF8A005FD205 /* CGCustomSelectButton.m */; };
 		1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42A1AE921AD006C4160 /* UIKitDemoViewController.m */; };
 		1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867B42E1AE92248006C4160 /* AutoLayoutTableViewController.m */; };
@@ -149,6 +151,10 @@
 		18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		182808651B0A39E400ADBDB0 /* CGPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPageContentView.h; sourceTree = "<group>"; };
 		182808661B0A39E400ADBDB0 /* CGPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPageContentView.m; sourceTree = "<group>"; };
+		1853EB601B21F94E00E3FE01 /* CGBaseControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBaseControl.h; sourceTree = "<group>"; };
+		1853EB611B21F94E00E3FE01 /* CGBaseControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBaseControl.m; sourceTree = "<group>"; };
+		1853EB641B21F95A00E3FE01 /* ServiceTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTitleButton.h; sourceTree = "<group>"; };
+		1853EB651B21F95A00E3FE01 /* ServiceTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTitleButton.m; sourceTree = "<group>"; };
 		185C2C271AFCDF8A005FD205 /* CGCustomSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCustomSelectButton.h; sourceTree = "<group>"; };
 		185C2C281AFCDF8A005FD205 /* CGCustomSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCustomSelectButton.m; sourceTree = "<group>"; };
 		1867B4291AE921AD006C4160 /* UIKitDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitDemoViewController.h; sourceTree = "<group>"; };
@@ -434,6 +440,15 @@
 				18046CD51AD6B8F500AD758D /* HomeTableViewCell.m */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		1853EB631B21F95A00E3FE01 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1853EB641B21F95A00E3FE01 /* ServiceTitleButton.h */,
+				1853EB651B21F95A00E3FE01 /* ServiceTitleButton.m */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		185C2C261AFCDF69005FD205 /* CGButton */ = {
@@ -729,6 +744,7 @@
 		D68163AA1B09973F0080D440 /* SingleViews */ = {
 			isa = PBXGroup;
 			children = (
+				1853EB631B21F95A00E3FE01 /* CustomViews */,
 				D68163AB1B09973F0080D440 /* CGSingleScrollView.h */,
 				D68163AC1B09973F0080D440 /* CGSingleScrollView.m */,
 				D68163AD1B09973F0080D440 /* SingleControlView */,
@@ -764,6 +780,8 @@
 		D68163B81B09973F0080D440 /* SingleView */ = {
 			isa = PBXGroup;
 			children = (
+				1853EB601B21F94E00E3FE01 /* CGBaseControl.h */,
+				1853EB611B21F94E00E3FE01 /* CGBaseControl.m */,
 				D68163B91B09973F0080D440 /* CGRadioBaseView.h */,
 				D68163BA1B09973F0080D440 /* CGRadioBaseView.m */,
 				D68163BB1B09973F0080D440 /* CGRadioView.h */,
@@ -1125,6 +1143,7 @@
 				D64B86621AEDD7E00052D250 /* LabelViewController.m in Sources */,
 				D68163C01B09973F0080D440 /* CGSingleScrollView.m in Sources */,
 				D68163C11B09973F0080D440 /* CGSingleBaseContentView.m in Sources */,
+				1853EB621B21F94E00E3FE01 /* CGBaseControl.m in Sources */,
 				D6EA12401AD76F25004F6D87 /* NSObject+AreaCalculate.m in Sources */,
 				D61A5E2B1B130393007ACD2C /* RecordingCircleOverlayView.m in Sources */,
 				D61A5E281B12CF9A007ACD2C /* UIButton+GCLayout.m in Sources */,
@@ -1152,6 +1171,7 @@
 				D68163C41B09973F0080D440 /* CGSingleSliderView.m in Sources */,
 				D68163C71B09973F0080D440 /* CGSingleSubControl.m in Sources */,
 				D64B86781AEDF81D0052D250 /* CGBaseTextField.m in Sources */,
+				1853EB661B21F95A00E3FE01 /* ServiceTitleButton.m in Sources */,
 				18046CD61AD6B8F500AD758D /* HomeTableViewCell.m in Sources */,
 				D6EA12431AD76F25004F6D87 /* UIView+Frame.m in Sources */,
 				D6EA12361AD76F25004F6D87 /* CGCropImage.m in Sources */,
