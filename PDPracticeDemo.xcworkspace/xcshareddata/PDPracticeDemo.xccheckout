@@ -5,48 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6DF5203E-13A8-40BC-9053-F2BAC2F1B65A</string>
+	<string>AADC2798-6EBC-4FA8-8835-20CB1B1ED449</string>
 	<key>IDESourceControlProjectName</key>
 	<string>PDPracticeDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0605DC4E000A7A338E152D611ECFA6E0A4703815</key>
-		<string>github.com:root338/TripartiteServices.git</string>
 		<key>30F52A54B6C6A6DCCAD35E39A4588A8A7E5461E7</key>
 		<string>github.com:root338/PDPracticeDemo.git</string>
 		<key>65372C6D16F6650A022795EB251065518E1AF213</key>
 		<string>github.com:root338/CG_CGFoundation.git</string>
-		<key>6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB</key>
-		<string>github.com:SnapKit/Masonry.git</string>
 		<key>8839BA38A1B85EA5B0210495287798BEBC7C6B71</key>
 		<string>github.com:root338/CG_.git</string>
 		<key>D7F1CFB89EA432AE9A74347D4D3B4C9975A906A9</key>
 		<string>github.com:root338/CGKit.git</string>
 		<key>E55FB98FA105BCDEDC7F784C148DCA7DD011DF3B</key>
 		<string>github.com:root338/CG_CGView.git</string>
-		<key>E6248D77DBBC6B1D6F6059D14C6A0B9ED1677585</key>
-		<string>github.com:smileyborg/PureLayout.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PDPracticeDemo.xcodeproj</string>
+	<string>PDPracticeDemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0605DC4E000A7A338E152D611ECFA6E0A4703815</key>
-		<string>../../PDPracticeDemo/CG_/TripartiteServices</string>
 		<key>30F52A54B6C6A6DCCAD35E39A4588A8A7E5461E7</key>
-		<string>../..</string>
+		<string>..</string>
 		<key>65372C6D16F6650A022795EB251065518E1AF213</key>
-		<string>../../PDPracticeDemo/CG_/CG_CGFoundation</string>
-		<key>6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB</key>
-		<string>../../PDPracticeDemo/CG_/TripartiteServices/Layout/Masonry</string>
+		<string>..PDPracticeDemo/CG_/CG_CGFoundation/</string>
 		<key>8839BA38A1B85EA5B0210495287798BEBC7C6B71</key>
-		<string>../../PDPracticeDemo/CG_</string>
+		<string>..PDPracticeDemo/CG_/</string>
 		<key>D7F1CFB89EA432AE9A74347D4D3B4C9975A906A9</key>
-		<string>../..PDPracticeDemo/CGKit</string>
+		<string>..PDPracticeDemo/CG_/CGKit/</string>
 		<key>E55FB98FA105BCDEDC7F784C148DCA7DD011DF3B</key>
-		<string>../../PDPracticeDemo/CG_/CG_CGView</string>
-		<key>E6248D77DBBC6B1D6F6059D14C6A0B9ED1677585</key>
-		<string>../../PDPracticeDemo/CG_/TripartiteServices/Layout/PureLayout</string>
+		<string>..PDPracticeDemo/CG_/CG_CGView/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:root338/PDPracticeDemo.git</string>
@@ -92,33 +80,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Masonry</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>30F52A54B6C6A6DCCAD35E39A4588A8A7E5461E7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PDPracticeDemo</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E6248D77DBBC6B1D6F6059D14C6A0B9ED1677585</string>
-			<key>IDESourceControlWCCName</key>
-			<string>PureLayout</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0605DC4E000A7A338E152D611ECFA6E0A4703815</string>
-			<key>IDESourceControlWCCName</key>
-			<string>TripartiteServices</string>
 		</dict>
 	</array>
 </dict>
