@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (0.6.2)
+  - PureLayout (2.0.6)
+
+DEPENDENCIES:
+  - Masonry
+  - PureLayout
+
+SPEC CHECKSUMS:
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+
+COCOAPODS: 0.37.2

@@ -40,6 +40,16 @@
 		1867B4371AE92E23006C4160 /* car_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1867B4361AE92E23006C4160 /* car_001.jpg */; };
 		186F3D711B0887E50053F3C9 /* UseGrandObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F3D701B0887E50053F3C9 /* UseGrandObject.m */; };
 		186F3D771B08D5260053F3C9 /* 五角星.png in Resources */ = {isa = PBXBuildFile; fileRef = 186F3D761B08D5260053F3C9 /* 五角星.png */; };
+		189EAA371B4944CA0023101B /* UIView+ShowOrHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA301B4944CA0023101B /* UIView+ShowOrHideAnimation.m */; };
+		189EAA381B4944CA0023101B /* UIView+AreaCoordinatesProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA331B4944CA0023101B /* UIView+AreaCoordinatesProcess.m */; };
+		189EAA411B4946A40023101B /* CGAliquotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA3C1B4946A40023101B /* CGAliquotsView.m */; };
+		189EAA421B4946A40023101B /* CGLineBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA3E1B4946A40023101B /* CGLineBoxView.m */; };
+		189EAA431B4946A40023101B /* CGScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA401B4946A40023101B /* CGScoreView.m */; };
+		189EAA521B4948590023101B /* UIButton+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA481B4948580023101B /* UIButton+CreateAutoLayout.m */; };
+		189EAA531B4948590023101B /* UIImageView+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA4A1B4948580023101B /* UIImageView+CreateAutoLayout.m */; };
+		189EAA541B4948590023101B /* UILabel+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA4C1B4948580023101B /* UILabel+CreateAutoLayout.m */; };
+		189EAA551B4948590023101B /* UITextField+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA4E1B4948580023101B /* UITextField+CreateAutoLayout.m */; };
+		189EAA561B4948590023101B /* UIView+CreateSubAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EAA501B4948590023101B /* UIView+CreateSubAutoLayout.m */; };
 		18D415A41ADE9E12003F4423 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D415A31ADE9E12003F4423 /* BaseViewController.m */; };
 		991E596B1B44D05D003613FE /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = 991E58E41B44D05D003613FE /* .gitmodules */; };
 		991E596C1B44D05D003613FE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 991E58E61B44D05D003613FE /* README.md */; };
@@ -75,11 +85,6 @@
 		991E598A1B44D05D003613FE /* CGBaseAutoLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E59351B44D05D003613FE /* CGBaseAutoLayoutView.m */; };
 		991E598B1B44D05D003613FE /* CGTitleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E59371B44D05D003613FE /* CGTitleBaseView.m */; };
 		991E598C1B44D05D003613FE /* CGTitleTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E59391B44D05D003613FE /* CGTitleTextField.m */; };
-		991E598D1B44D05D003613FE /* UIButton+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E593D1B44D05D003613FE /* UIButton+CreateAutoLayout.m */; };
-		991E598E1B44D05D003613FE /* UIImageView+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E593F1B44D05D003613FE /* UIImageView+CreateAutoLayout.m */; };
-		991E598F1B44D05D003613FE /* UILabel+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E59411B44D05D003613FE /* UILabel+CreateAutoLayout.m */; };
-		991E59901B44D05D003613FE /* UITextField+CreateAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E59431B44D05D003613FE /* UITextField+CreateAutoLayout.m */; };
-		991E59911B44D05D003613FE /* UIView+CreateSubAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E59451B44D05D003613FE /* UIView+CreateSubAutoLayout.m */; };
 		991E59921B44D05D003613FE /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E594A1B44D05D003613FE /* EXTScope.m */; };
 		991E59931B44D05D003613FE /* NSTimer+TimerSetupState.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E594E1B44D05D003613FE /* NSTimer+TimerSetupState.m */; };
 		991E59941B44D05D003613FE /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E59551B44D05D003613FE /* ALView+PureLayout.m */; };
@@ -114,6 +119,7 @@
 		D6EA124A1AD77020004F6D87 /* ChangeApplicationLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA12491AD77020004F6D87 /* ChangeApplicationLanguage.m */; };
 		D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EA124C1AD771E9004F6D87 /* HomeViewController.m */; };
 		D6F4E1471B047F28001587FD /* NSObject+NavigationAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4E1461B047F28001587FD /* NSObject+NavigationAppearance.m */; };
+		FD85CA931FCA571E230AD9FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BAB0880FDE8E81655B8628 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,8 +167,31 @@
 		186F3D6F1B0887E50053F3C9 /* UseGrandObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseGrandObject.h; sourceTree = "<group>"; };
 		186F3D701B0887E50053F3C9 /* UseGrandObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseGrandObject.m; sourceTree = "<group>"; };
 		186F3D761B08D5260053F3C9 /* 五角星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "五角星.png"; sourceTree = "<group>"; };
+		189EAA2F1B4944CA0023101B /* UIView+ShowOrHideAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ShowOrHideAnimation.h"; sourceTree = "<group>"; };
+		189EAA301B4944CA0023101B /* UIView+ShowOrHideAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ShowOrHideAnimation.m"; sourceTree = "<group>"; };
+		189EAA321B4944CA0023101B /* UIView+AreaCoordinatesProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AreaCoordinatesProcess.h"; sourceTree = "<group>"; };
+		189EAA331B4944CA0023101B /* UIView+AreaCoordinatesProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AreaCoordinatesProcess.m"; sourceTree = "<group>"; };
+		189EAA3B1B4946A40023101B /* CGAliquotsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAliquotsView.h; sourceTree = "<group>"; };
+		189EAA3C1B4946A40023101B /* CGAliquotsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAliquotsView.m; sourceTree = "<group>"; };
+		189EAA3D1B4946A40023101B /* CGLineBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLineBoxView.h; sourceTree = "<group>"; };
+		189EAA3E1B4946A40023101B /* CGLineBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLineBoxView.m; sourceTree = "<group>"; };
+		189EAA3F1B4946A40023101B /* CGScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGScoreView.h; sourceTree = "<group>"; };
+		189EAA401B4946A40023101B /* CGScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGScoreView.m; sourceTree = "<group>"; };
+		189EAA461B4948580023101B /* CreateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateView.h; sourceTree = "<group>"; };
+		189EAA471B4948580023101B /* UIButton+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		189EAA481B4948580023101B /* UIButton+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		189EAA491B4948580023101B /* UIImageView+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		189EAA4A1B4948580023101B /* UIImageView+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		189EAA4B1B4948580023101B /* UILabel+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		189EAA4C1B4948580023101B /* UILabel+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		189EAA4D1B4948580023101B /* UITextField+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CreateAutoLayout.h"; sourceTree = "<group>"; };
+		189EAA4E1B4948580023101B /* UITextField+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CreateAutoLayout.m"; sourceTree = "<group>"; };
+		189EAA4F1B4948580023101B /* UIView+CreateSubAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CreateSubAutoLayout.h"; sourceTree = "<group>"; };
+		189EAA501B4948590023101B /* UIView+CreateSubAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CreateSubAutoLayout.m"; sourceTree = "<group>"; };
 		18D415A21ADE9E12003F4423 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = HomeVC/BaseViewController.h; sourceTree = "<group>"; };
 		18D415A31ADE9E12003F4423 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = HomeVC/BaseViewController.m; sourceTree = "<group>"; };
+		47AF68756E4336A72FED8DFB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		69BAB0880FDE8E81655B8628 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		991E58E41B44D05D003613FE /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
 		991E58E61B44D05D003613FE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		991E58E81B44D05D003613FE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -231,17 +260,6 @@
 		991E59371B44D05D003613FE /* CGTitleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleBaseView.m; sourceTree = "<group>"; };
 		991E59381B44D05D003613FE /* CGTitleTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTitleTextField.h; sourceTree = "<group>"; };
 		991E59391B44D05D003613FE /* CGTitleTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTitleTextField.m; sourceTree = "<group>"; };
-		991E593B1B44D05D003613FE /* CreateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateView.h; sourceTree = "<group>"; };
-		991E593C1B44D05D003613FE /* UIButton+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CreateAutoLayout.h"; sourceTree = "<group>"; };
-		991E593D1B44D05D003613FE /* UIButton+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CreateAutoLayout.m"; sourceTree = "<group>"; };
-		991E593E1B44D05D003613FE /* UIImageView+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CreateAutoLayout.h"; sourceTree = "<group>"; };
-		991E593F1B44D05D003613FE /* UIImageView+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CreateAutoLayout.m"; sourceTree = "<group>"; };
-		991E59401B44D05D003613FE /* UILabel+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CreateAutoLayout.h"; sourceTree = "<group>"; };
-		991E59411B44D05D003613FE /* UILabel+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CreateAutoLayout.m"; sourceTree = "<group>"; };
-		991E59421B44D05D003613FE /* UITextField+CreateAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CreateAutoLayout.h"; sourceTree = "<group>"; };
-		991E59431B44D05D003613FE /* UITextField+CreateAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CreateAutoLayout.m"; sourceTree = "<group>"; };
-		991E59441B44D05D003613FE /* UIView+CreateSubAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CreateSubAutoLayout.h"; sourceTree = "<group>"; };
-		991E59451B44D05D003613FE /* UIView+CreateSubAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CreateSubAutoLayout.m"; sourceTree = "<group>"; };
 		991E59481B44D05D003613FE /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		991E59491B44D05D003613FE /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
 		991E594A1B44D05D003613FE /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
@@ -314,6 +332,7 @@
 		D6EA124C1AD771E9004F6D87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = HomeVC/HomeViewController.m; sourceTree = "<group>"; };
 		D6F4E1451B047F28001587FD /* NSObject+NavigationAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NavigationAppearance.h"; sourceTree = "<group>"; };
 		D6F4E1461B047F28001587FD /* NSObject+NavigationAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NavigationAppearance.m"; sourceTree = "<group>"; };
+		FB66ECE56ABC39AFB74D457B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +344,7 @@
 				18046CDD1AD6BD6B00AD758D /* UIKit.framework in Frameworks */,
 				18046CDB1AD6BD5F00AD758D /* QuartzCore.framework in Frameworks */,
 				D64B866A1AEDE1E70052D250 /* Reveal.framework in Frameworks */,
+				FD85CA931FCA571E230AD9FE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +358,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ACBAF5E2253225BDA06E4FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB66ECE56ABC39AFB74D457B /* Pods.debug.xcconfig */,
+				47AF68756E4336A72FED8DFB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		18046C851AD6B55500AD758D = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +374,7 @@
 				18046CAA1AD6B55500AD758D /* PDPracticeDemoTests */,
 				18046CB71AD6B5D300AD758D /* Frameworks */,
 				18046C8F1AD6B55500AD758D /* Products */,
+				0ACBAF5E2253225BDA06E4FD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -408,6 +438,7 @@
 				18046CE01AD6BD7C00AD758D /* CoreFoundation.framework */,
 				18046CDC1AD6BD6B00AD758D /* UIKit.framework */,
 				18046CDA1AD6BD5F00AD758D /* QuartzCore.framework */,
+				69BAB0880FDE8E81655B8628 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -449,6 +480,13 @@
 				18046CD51AD6B8F500AD758D /* HomeTableViewCell.m */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		1853EB631B21F95A00E3FE01 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		1867B4281AE92135006C4160 /* UIKitDemo */ = {
@@ -496,6 +534,88 @@
 			path = "宏的使用";
 			sourceTree = "<group>";
 		};
+		189EAA261B4944CA0023101B /* CGView */ = {
+			isa = PBXGroup;
+			children = (
+				189EAA3A1B4946A40023101B /* Custom View */,
+			);
+			path = CGView;
+			sourceTree = "<group>";
+		};
+		189EAA2D1B4944CA0023101B /* View+Category */ = {
+			isa = PBXGroup;
+			children = (
+				189EAA2E1B4944CA0023101B /* Animation */,
+				189EAA311B4944CA0023101B /* Area */,
+			);
+			path = "View+Category";
+			sourceTree = "<group>";
+		};
+		189EAA2E1B4944CA0023101B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				189EAA2F1B4944CA0023101B /* UIView+ShowOrHideAnimation.h */,
+				189EAA301B4944CA0023101B /* UIView+ShowOrHideAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		189EAA311B4944CA0023101B /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				189EAA321B4944CA0023101B /* UIView+AreaCoordinatesProcess.h */,
+				189EAA331B4944CA0023101B /* UIView+AreaCoordinatesProcess.m */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		189EAA3A1B4946A40023101B /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				189EAA3B1B4946A40023101B /* CGAliquotsView.h */,
+				189EAA3C1B4946A40023101B /* CGAliquotsView.m */,
+				189EAA3D1B4946A40023101B /* CGLineBoxView.h */,
+				189EAA3E1B4946A40023101B /* CGLineBoxView.m */,
+				189EAA3F1B4946A40023101B /* CGScoreView.h */,
+				189EAA401B4946A40023101B /* CGScoreView.m */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		189EAA441B4948580023101B /* Create View */ = {
+			isa = PBXGroup;
+			children = (
+				189EAA451B4948580023101B /* Create AutoLayout View */,
+				189EAA511B4948590023101B /* Create View */,
+			);
+			path = "Create View";
+			sourceTree = "<group>";
+		};
+		189EAA451B4948580023101B /* Create AutoLayout View */ = {
+			isa = PBXGroup;
+			children = (
+				189EAA461B4948580023101B /* CreateView.h */,
+				189EAA471B4948580023101B /* UIButton+CreateAutoLayout.h */,
+				189EAA481B4948580023101B /* UIButton+CreateAutoLayout.m */,
+				189EAA491B4948580023101B /* UIImageView+CreateAutoLayout.h */,
+				189EAA4A1B4948580023101B /* UIImageView+CreateAutoLayout.m */,
+				189EAA4B1B4948580023101B /* UILabel+CreateAutoLayout.h */,
+				189EAA4C1B4948580023101B /* UILabel+CreateAutoLayout.m */,
+				189EAA4D1B4948580023101B /* UITextField+CreateAutoLayout.h */,
+				189EAA4E1B4948580023101B /* UITextField+CreateAutoLayout.m */,
+				189EAA4F1B4948580023101B /* UIView+CreateSubAutoLayout.h */,
+				189EAA501B4948590023101B /* UIView+CreateSubAutoLayout.m */,
+			);
+			path = "Create AutoLayout View";
+			sourceTree = "<group>";
+		};
+		189EAA511B4948590023101B /* Create View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Create View";
+			sourceTree = "<group>";
+		};
 		991E58E31B44D05D003613FE /* CG_ */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,6 +638,9 @@
 		991E58E71B44D05D003613FE /* CG_CGView */ = {
 			isa = PBXGroup;
 			children = (
+				189EAA441B4948580023101B /* Create View */,
+				189EAA261B4944CA0023101B /* CGView */,
+				189EAA2D1B4944CA0023101B /* View+Category */,
 				991E58E81B44D05D003613FE /* README.md */,
 			);
 			path = CG_CGView;
@@ -527,7 +650,6 @@
 			isa = PBXGroup;
 			children = (
 				991E58EA1B44D05D003613FE /* CGView */,
-				991E593A1B44D05D003613FE /* CreateView */,
 				991E59461B44D05D003613FE /* Foundion */,
 				991E594F1B44D05D003613FE /* Header */,
 				991E59511B44D05D003613FE /* MacroDefinition */,
@@ -723,24 +845,6 @@
 			path = CGView;
 			sourceTree = "<group>";
 		};
-		991E593A1B44D05D003613FE /* CreateView */ = {
-			isa = PBXGroup;
-			children = (
-				991E593B1B44D05D003613FE /* CreateView.h */,
-				991E593C1B44D05D003613FE /* UIButton+CreateAutoLayout.h */,
-				991E593D1B44D05D003613FE /* UIButton+CreateAutoLayout.m */,
-				991E593E1B44D05D003613FE /* UIImageView+CreateAutoLayout.h */,
-				991E593F1B44D05D003613FE /* UIImageView+CreateAutoLayout.m */,
-				991E59401B44D05D003613FE /* UILabel+CreateAutoLayout.h */,
-				991E59411B44D05D003613FE /* UILabel+CreateAutoLayout.m */,
-				991E59421B44D05D003613FE /* UITextField+CreateAutoLayout.h */,
-				991E59431B44D05D003613FE /* UITextField+CreateAutoLayout.m */,
-				991E59441B44D05D003613FE /* UIView+CreateSubAutoLayout.h */,
-				991E59451B44D05D003613FE /* UIView+CreateSubAutoLayout.m */,
-			);
-			path = CreateView;
-			sourceTree = "<group>";
-		};
 		991E59461B44D05D003613FE /* Foundion */ = {
 			isa = PBXGroup;
 			children = (
@@ -830,6 +934,7 @@
 		D60114B91AF1CEB1000F9B84 /* Segue使用示例 */ = {
 			isa = PBXGroup;
 			children = (
+				1853EB631B21F95A00E3FE01 /* CustomViews */,
 				D60114BA1AF1CEC9000F9B84 /* CustomSegueViewController.h */,
 				D60114BB1AF1CEC9000F9B84 /* CustomSegueViewController.m */,
 			);
@@ -1041,10 +1146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18046CB11AD6B55500AD758D /* Build configuration list for PBXNativeTarget "PDPracticeDemo" */;
 			buildPhases = (
+				67752D1B7E3FC3554A026948 /* Check Pods Manifest.lock */,
 				18046C8A1AD6B55500AD758D /* Sources */,
 				18046C8B1AD6B55500AD758D /* Frameworks */,
 				18046C8C1AD6B55500AD758D /* Resources */,
 				D60976391B0F132B0009C80F /* ShellScript */,
+				2BA5654567C72D4F1F22CCD2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1106,6 +1213,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 18046C851AD6B55500AD758D;
 			productRefGroup = 18046C8F1AD6B55500AD758D /* Products */;
@@ -1144,6 +1252,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2BA5654567C72D4F1F22CCD2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67752D1B7E3FC3554A026948 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		D60976391B0F132B0009C80F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1173,10 +1311,11 @@
 				D63A93811AEF2E9B0094B68E /* Key-Value-ObservingUseViewController.m in Sources */,
 				1867B42B1AE921AD006C4160 /* UIKitDemoViewController.m in Sources */,
 				18046CCD1AD6B82000AD758D /* AppDelegate.m in Sources */,
-				991E598F1B44D05D003613FE /* UILabel+CreateAutoLayout.m in Sources */,
+				189EAA541B4948590023101B /* UILabel+CreateAutoLayout.m in Sources */,
 				D60114BC1AF1CEC9000F9B84 /* CustomSegueViewController.m in Sources */,
 				991E598C1B44D05D003613FE /* CGTitleTextField.m in Sources */,
 				186F3D711B0887E50053F3C9 /* UseGrandObject.m in Sources */,
+				189EAA531B4948590023101B /* UIImageView+CreateAutoLayout.m in Sources */,
 				991E597D1B44D05D003613FE /* CGPageContentView.m in Sources */,
 				1867B42F1AE92248006C4160 /* AutoLayoutTableViewController.m in Sources */,
 				991E597C1B44D05D003613FE /* CGCycleScrollView.m in Sources */,
@@ -1184,11 +1323,12 @@
 				991E597A1B44D05D003613FE /* CGScrollView.m in Sources */,
 				D61A5E2B1B130393007ACD2C /* RecordingCircleOverlayView.m in Sources */,
 				991E59751B44D05D003613FE /* CGAttributedPlaceholderLabel.m in Sources */,
-				991E598E1B44D05D003613FE /* UIImageView+CreateAutoLayout.m in Sources */,
 				18046CC61AD6B81000AD758D /* CGRootNavigationController.m in Sources */,
 				991E59811B44D05D003613FE /* CGSingleContentView.m in Sources */,
 				991E59841B44D05D003613FE /* CGBaseControl.m in Sources */,
 				991E59891B44D05D003613FE /* CGPlaceholderTextView.m in Sources */,
+				189EAA521B4948590023101B /* UIButton+CreateAutoLayout.m in Sources */,
+				189EAA381B4944CA0023101B /* UIView+AreaCoordinatesProcess.m in Sources */,
 				D62124EC1AF8BA8B008CFA72 /* DynamicsViewController.m in Sources */,
 				D61D918B1AF0B01C00A3AACF /* VisualEffectViewController.m in Sources */,
 				D6B395E81AF7253500FC87BE /* CustomTextViewController.m in Sources */,
@@ -1198,12 +1338,13 @@
 				991E59971B44D05D003613FE /* README.md in Sources */,
 				991E597F1B44D05D003613FE /* ServiceTitleButton.m in Sources */,
 				991E59861B44D05D003613FE /* CGRadioView.m in Sources */,
+				189EAA431B4946A40023101B /* CGScoreView.m in Sources */,
 				991E59711B44D05D003613FE /* UIControl+CalculateArea.m in Sources */,
 				991E59851B44D05D003613FE /* CGRadioBaseView.m in Sources */,
+				189EAA551B4948590023101B /* UITextField+CreateAutoLayout.m in Sources */,
 				991E597E1B44D05D003613FE /* CGSingleScrollView.m in Sources */,
 				991E596F1B44D05D003613FE /* CGCustomSelectButton.m in Sources */,
 				991E596D1B44D05D003613FE /* README.md in Sources */,
-				991E598D1B44D05D003613FE /* UIButton+CreateAutoLayout.m in Sources */,
 				D6189DE31AF9F736001C3E21 /* TestCollectionViewController.m in Sources */,
 				991E596E1B44D05D003613FE /* UIButton+GCLayout.m in Sources */,
 				991E59761B44D05D003613FE /* CGBaseLabel.m in Sources */,
@@ -1217,11 +1358,11 @@
 				991E59921B44D05D003613FE /* EXTScope.m in Sources */,
 				18046CC71AD6B81000AD758D /* CGRootViewController.m in Sources */,
 				991E59871B44D05D003613FE /* CGSingleSubControl.m in Sources */,
+				189EAA421B4946A40023101B /* CGLineBoxView.m in Sources */,
 				991E59961B44D05D003613FE /* NSLayoutConstraint+PureLayout.m in Sources */,
 				991E59941B44D05D003613FE /* ALView+PureLayout.m in Sources */,
 				18046CD61AD6B8F500AD758D /* HomeTableViewCell.m in Sources */,
 				D62124EF1AF8C08A008CFA72 /* DynamicsViewController+AddView.m in Sources */,
-				991E59901B44D05D003613FE /* UITextField+CreateAutoLayout.m in Sources */,
 				991E599A1B44D05D003613FE /* UIColor+HexColor.m in Sources */,
 				991E59741B44D05D003613FE /* CGZoomImageView.m in Sources */,
 				18046CD21AD6B8AA00AD758D /* CGTableViewDataSource.m in Sources */,
@@ -1232,15 +1373,17 @@
 				991E59931B44D05D003613FE /* NSTimer+TimerSetupState.m in Sources */,
 				D61D918C1AF0B01C00A3AACF /* ProprietaryViewController.m in Sources */,
 				991E59981B44D05D003613FE /* AreaEdge.m in Sources */,
-				991E59911B44D05D003613FE /* UIView+CreateSubAutoLayout.m in Sources */,
+				189EAA411B4946A40023101B /* CGAliquotsView.m in Sources */,
 				991E59951B44D05D003613FE /* NSArray+PureLayout.m in Sources */,
 				991E59881B44D05D003613FE /* CGBaseTextField.m in Sources */,
 				D61D918D1AF0B01C00A3AACF /* CATableViewController.m in Sources */,
 				991E596C1B44D05D003613FE /* README.md in Sources */,
 				D6957B9A1AFB64DA005F4F79 /* CGSpringCollectionViewFlowLayout.m in Sources */,
+				189EAA371B4944CA0023101B /* UIView+ShowOrHideAnimation.m in Sources */,
 				18046CC81AD6B81000AD758D /* CGTableViewController.m in Sources */,
 				991E59991B44D05D003613FE /* NSObject+AreaCalculate.m in Sources */,
 				991E599C1B44D05D003613FE /* UIView+Frame.m in Sources */,
+				189EAA561B4948590023101B /* UIView+CreateSubAutoLayout.m in Sources */,
 				D6EA124D1AD771E9004F6D87 /* HomeViewController.m in Sources */,
 				991E59831B44D05D003613FE /* CGSingleSliderView.m in Sources */,
 				991E59801B44D05D003613FE /* CGSingleBaseContentView.m in Sources */,
@@ -1365,6 +1508,7 @@
 		};
 		18046CB21AD6B55500AD758D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB66ECE56ABC39AFB74D457B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1387,6 +1531,7 @@
 		};
 		18046CB31AD6B55500AD758D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AF68756E4336A72FED8DFB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
