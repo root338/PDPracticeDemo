@@ -28,13 +28,13 @@
 		<key>30F52A54B6C6A6DCCAD35E39A4588A8A7E5461E7</key>
 		<string>..</string>
 		<key>65372C6D16F6650A022795EB251065518E1AF213</key>
-		<string>..PDPracticeDemo/CG_/CG_CGFoundation/</string>
+		<string>..PDPracticeDemo/CG_/CG_CGFoundation</string>
 		<key>8839BA38A1B85EA5B0210495287798BEBC7C6B71</key>
-		<string>..PDPracticeDemo/CG_/</string>
+		<string>..PDPracticeDemo/CG_</string>
 		<key>D7F1CFB89EA432AE9A74347D4D3B4C9975A906A9</key>
-		<string>..PDPracticeDemo/CG_/CGKit/</string>
+		<string>..PDPracticeDemo/CG_/CGKit</string>
 		<key>E55FB98FA105BCDEDC7F784C148DCA7DD011DF3B</key>
-		<string>..PDPracticeDemo/CG_/CG_CGView/</string>
+		<string>..PDPracticeDemo/CG_/CG_CGView</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:root338/PDPracticeDemo.git</string>
